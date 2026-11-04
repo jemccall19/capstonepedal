@@ -1,5 +1,6 @@
 #include "daisy_seed.h"
 #include "daisysp.h"
+#include "Delay.h"
 
 using namespace daisy;
 using namespace daisy::seed;
@@ -17,6 +18,7 @@ enum AdcChannel {
 DaisySeed hw;
 Chorus chorus;
 Tremolo tremolo;
+Delay delay(22050, 0.5, 44100);
 float x;
 float y;
 
@@ -27,16 +29,18 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 {
 	float sig;
 	ProcessADC();
-	tremolo.SetDepth(1);
-	tremolo.SetFreq(y);
-	chorus.SetLfoDepth(x);
+	//tremolo.SetDepth(1);
+	//tremolo.SetFreq(y);
+	//chorus.SetLfoDepth(x);
+	//delay.setDelaySize(x);
 
 	for (size_t i = 0; i < size; i++)
 	{
 		
 		sig = in[1][i] * 10;
-		sig = tremolo.Process(sig);
-		sig = chorus.Process(sig);
+		//sig = tremolo.Process(sig);
+		//sig = chorus.Process(sig);
+		sig = delay.ProcessSample(sig);
 		out[0][i] = sig;
 		out[1][i] = sig;
 		
@@ -71,6 +75,6 @@ void InitializeADC() {
 }
 
 void ProcessADC() {
-	x = hw.adc.GetFloat(KnobOne);
+	x = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
 	y = hw.adc.GetFloat(KnobTwo) * 10.0f; 
 }

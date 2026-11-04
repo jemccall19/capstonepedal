@@ -2,7 +2,7 @@
 TARGET = testproj
 
 # Sources
-CPP_SOURCES = testproj.cpp
+CPP_SOURCES = testproj.cpp delay.cpp
 
 # Library Locations
 LIBDAISY_DIR = ../libDaisy/
