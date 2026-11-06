@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -56,9 +56,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   32              		@ args = 0, pretend = 0, frame = 0
   33              		@ frame_needed = 0, uses_anonymous_args = 0
   34              		@ link register save eliminated.
-  35              	.LBB151:
-  36              	.LBI151:
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 2
+  35              	.LBB111:
+  36              	.LBI111:
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 2
 
 
   37              		.file 2 "../libDaisy//src/sys/system.h"
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   54:../libDaisy//src/sys/system.h **** 
   55:../libDaisy//src/sys/system.h ****         SysClkFreq cpu_freq;
   56:../libDaisy//src/sys/system.h ****         bool       use_dcache;
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 3
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 3
 
 
   57:../libDaisy//src/sys/system.h ****         bool       use_icache;
@@ -164,9 +164,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   97:../libDaisy//src/sys/system.h ****     ~System() {}
   38              		.loc 2 97 5 view .LVU1
   39              		.loc 2 97 5 is_stmt 0 view .LVU2
-  40              	.LBE151:
-  41              	.LBB152:
-  42              	.LBI152:
+  40              	.LBE111:
+  41              	.LBB112:
+  42              	.LBI112:
   43              		.file 3 "../libDaisy//src/hid/usb.h"
    1:../libDaisy//src/hid/usb.h **** #pragma once
    2:../libDaisy//src/hid/usb.h **** #ifndef DSY_HID_USB_H
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
    8:../libDaisy//src/hid/usb.h **** /** @addtogroup human_interface
    9:../libDaisy//src/hid/usb.h ****     @{
   10:../libDaisy//src/hid/usb.h **** */
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 4
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 4
 
 
   11:../libDaisy//src/hid/usb.h **** 
@@ -215,9 +215,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   42:../libDaisy//src/hid/usb.h ****     ~UsbHandle() {}
   44              		.loc 3 42 5 is_stmt 1 view .LVU3
   45              		.loc 3 42 5 is_stmt 0 view .LVU4
-  46              	.LBE152:
-  47              	.LBB153:
-  48              	.LBI153:
+  46              	.LBE112:
+  47              	.LBB113:
+  48              	.LBI113:
   49              		.file 4 "../libDaisy//src/per/adc.h"
    1:../libDaisy//src/per/adc.h **** #pragma once
    2:../libDaisy//src/per/adc.h **** #ifndef DSY_ADC_H
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   17:../libDaisy//src/per/adc.h **** /* While there may not be many configuration options here,
   18:../libDaisy//src/per/adc.h **** using a struct like this allows us to add more configuration
   19:../libDaisy//src/per/adc.h **** later without breaking existing functionality.
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 5
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 5
 
 
   20:../libDaisy//src/per/adc.h **** */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   74:../libDaisy//src/per/adc.h ****     void InitMux(dsy_gpio_pin    adc_pin,
   75:../libDaisy//src/per/adc.h ****                  size_t          mux_channels,
   76:../libDaisy//src/per/adc.h ****                  dsy_gpio_pin    mux_0,
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 6
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 6
 
 
   77:../libDaisy//src/per/adc.h ****                  dsy_gpio_pin    mux_1 = {DSY_GPIOX, 0},
@@ -337,9 +337,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  110:../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
   50              		.loc 4 110 5 is_stmt 1 view .LVU5
   51              		.loc 4 110 5 is_stmt 0 view .LVU6
-  52              	.LBE153:
-  53              	.LBB154:
-  54              	.LBI154:
+  52              	.LBE113:
+  53              	.LBB114:
+  54              	.LBI114:
   55              		.file 5 "../libDaisy//src/hid/audio.h"
    1:../libDaisy//src/hid/audio.h **** #ifndef DSY_AUDIO_H
    2:../libDaisy//src/hid/audio.h **** #define DSY_AUDIO_H /**< & */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   15:../libDaisy//src/hid/audio.h ****  *           you will have to take the following steps:
   16:../libDaisy//src/hid/audio.h ****  *             1. Create and Initialize an SaiHandle or two depending on your requirements
   17:../libDaisy//src/hid/audio.h ****  *             2. Initialize the Audio Handle with the desired settings and the Initialized SaiHand
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 7
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 7
 
 
   18:../libDaisy//src/hid/audio.h ****  *             3. If the connected codec requires special configuration or initialization, do so
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   72:../libDaisy//src/hid/audio.h ****      */
   73:../libDaisy//src/hid/audio.h ****     typedef void (*AudioCallback)(InputBuffer  in,
   74:../libDaisy//src/hid/audio.h ****                                   OutputBuffer out,
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 8
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 8
 
 
   75:../libDaisy//src/hid/audio.h ****                                   size_t       size);
@@ -445,261 +445,47 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   96:../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
   56              		.loc 5 96 5 is_stmt 1 view .LVU7
   57              		.loc 5 96 5 is_stmt 0 view .LVU8
-  58              	.LBE154:
+  58              	.LBE114:
   59              		.loc 1 22 19 view .LVU9
   60 0000 7047     		bx	lr
   61              		.cfi_endproc
   62              	.LFE2555:
   64              		.weak	_ZN5daisy9DaisySeedD1Ev
   65              		.thumb_set _ZN5daisy9DaisySeedD1Ev,_ZN5daisy9DaisySeedD2Ev
-  66 0002 00BF     		.section	.text._ZN7daisysp6ChorusD2Ev,"axG",%progbits,_ZN7daisysp6ChorusD5Ev,comdat
+  66 0002 00BF     		.section	.text._ZN5DelayD2Ev,"axG",%progbits,_ZN5DelayD5Ev,comdat
   67              		.align	1
   68              		.p2align 2,,3
-  69              		.weak	_ZN7daisysp6ChorusD2Ev
+  69              		.weak	_ZN5DelayD2Ev
   70              		.syntax unified
   71              		.thumb
   72              		.thumb_func
   73              		.fpu fpv5-d16
-  75              	_ZN7daisysp6ChorusD2Ev:
+  75              	_ZN5DelayD2Ev:
   76              	.LVL1:
-  77              	.LFB4374:
-  78              		.file 6 "../DaisySP//Source/Effects/chorus.h"
-   1:../DaisySP//Source/Effects/chorus.h **** /*
-   2:../DaisySP//Source/Effects/chorus.h **** Copyright (c) 2020 Electrosmith, Corp
-   3:../DaisySP//Source/Effects/chorus.h **** 
-   4:../DaisySP//Source/Effects/chorus.h **** Use of this source code is governed by an MIT-style
-   5:../DaisySP//Source/Effects/chorus.h **** license that can be found in the LICENSE file or at
-   6:../DaisySP//Source/Effects/chorus.h **** https://opensource.org/licenses/MIT.
-   7:../DaisySP//Source/Effects/chorus.h **** */
-   8:../DaisySP//Source/Effects/chorus.h **** 
-   9:../DaisySP//Source/Effects/chorus.h **** #pragma once
-  10:../DaisySP//Source/Effects/chorus.h **** #ifndef DSY_CHORUS_H
-  11:../DaisySP//Source/Effects/chorus.h **** #define DSY_CHORUS_H
-  12:../DaisySP//Source/Effects/chorus.h **** #ifdef __cplusplus
-  13:../DaisySP//Source/Effects/chorus.h **** 
-  14:../DaisySP//Source/Effects/chorus.h **** #include <stdint.h>
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 9
-
-
-  15:../DaisySP//Source/Effects/chorus.h **** #include "Utility/delayline.h"
-  16:../DaisySP//Source/Effects/chorus.h **** 
-  17:../DaisySP//Source/Effects/chorus.h **** /** @file chorus.h */
-  18:../DaisySP//Source/Effects/chorus.h **** 
-  19:../DaisySP//Source/Effects/chorus.h **** namespace daisysp
-  20:../DaisySP//Source/Effects/chorus.h **** {
-  21:../DaisySP//Source/Effects/chorus.h **** /**  
-  22:../DaisySP//Source/Effects/chorus.h ****     @brief Single Chorus engine. Used in Chorus.
-  23:../DaisySP//Source/Effects/chorus.h ****     @author Ben Sergentanis
-  24:../DaisySP//Source/Effects/chorus.h **** */
-  25:../DaisySP//Source/Effects/chorus.h **** class ChorusEngine
-  26:../DaisySP//Source/Effects/chorus.h **** {
-  27:../DaisySP//Source/Effects/chorus.h ****   public:
-  28:../DaisySP//Source/Effects/chorus.h ****     ChorusEngine() {}
-  29:../DaisySP//Source/Effects/chorus.h ****     ~ChorusEngine() {}
-  30:../DaisySP//Source/Effects/chorus.h **** 
-  31:../DaisySP//Source/Effects/chorus.h ****     /** Initialize the module
-  32:../DaisySP//Source/Effects/chorus.h ****         \param sample_rate Audio engine sample rate.
-  33:../DaisySP//Source/Effects/chorus.h ****     */
-  34:../DaisySP//Source/Effects/chorus.h ****     void Init(float sample_rate);
-  35:../DaisySP//Source/Effects/chorus.h **** 
-  36:../DaisySP//Source/Effects/chorus.h ****     /** Get the next sample
-  37:../DaisySP//Source/Effects/chorus.h ****         \param in Sample to process
-  38:../DaisySP//Source/Effects/chorus.h ****     */
-  39:../DaisySP//Source/Effects/chorus.h ****     float Process(float in);
-  40:../DaisySP//Source/Effects/chorus.h **** 
-  41:../DaisySP//Source/Effects/chorus.h ****     /** How much to modulate the delay by.
-  42:../DaisySP//Source/Effects/chorus.h ****         \param depth Works 0-1.
-  43:../DaisySP//Source/Effects/chorus.h ****     */
-  44:../DaisySP//Source/Effects/chorus.h ****     void SetLfoDepth(float depth);
-  45:../DaisySP//Source/Effects/chorus.h **** 
-  46:../DaisySP//Source/Effects/chorus.h ****     /** Set lfo frequency.
-  47:../DaisySP//Source/Effects/chorus.h ****         \param freq Frequency in Hz
-  48:../DaisySP//Source/Effects/chorus.h ****     */
-  49:../DaisySP//Source/Effects/chorus.h ****     void SetLfoFreq(float freq);
-  50:../DaisySP//Source/Effects/chorus.h **** 
-  51:../DaisySP//Source/Effects/chorus.h ****     /** Set the internal delay rate. 
-  52:../DaisySP//Source/Effects/chorus.h ****         \param delay Tuned for 0-1. Maps to .1 to 50 ms.
-  53:../DaisySP//Source/Effects/chorus.h ****     */
-  54:../DaisySP//Source/Effects/chorus.h ****     void SetDelay(float delay);
-  55:../DaisySP//Source/Effects/chorus.h **** 
-  56:../DaisySP//Source/Effects/chorus.h ****     /** Set the delay time in ms.
-  57:../DaisySP//Source/Effects/chorus.h ****         \param ms Delay time in ms, 0 to 50 ms.
-  58:../DaisySP//Source/Effects/chorus.h ****     */
-  59:../DaisySP//Source/Effects/chorus.h ****     void SetDelayMs(float ms);
-  60:../DaisySP//Source/Effects/chorus.h **** 
-  61:../DaisySP//Source/Effects/chorus.h ****     /** Set the feedback amount.
-  62:../DaisySP//Source/Effects/chorus.h ****         \param feedback Amount from 0-1.
-  63:../DaisySP//Source/Effects/chorus.h ****     */
-  64:../DaisySP//Source/Effects/chorus.h ****     void SetFeedback(float feedback);
-  65:../DaisySP//Source/Effects/chorus.h **** 
-  66:../DaisySP//Source/Effects/chorus.h ****   private:
-  67:../DaisySP//Source/Effects/chorus.h ****     float                    sample_rate_;
-  68:../DaisySP//Source/Effects/chorus.h ****     static constexpr int32_t kDelayLength
-  69:../DaisySP//Source/Effects/chorus.h ****         = 2400; // 50 ms at 48kHz = .05 * 48000
-  70:../DaisySP//Source/Effects/chorus.h **** 
-  71:../DaisySP//Source/Effects/chorus.h ****     //triangle lfos
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 10
-
-
-  72:../DaisySP//Source/Effects/chorus.h ****     float lfo_phase_;
-  73:../DaisySP//Source/Effects/chorus.h ****     float lfo_freq_;
-  74:../DaisySP//Source/Effects/chorus.h ****     float lfo_amp_;
-  75:../DaisySP//Source/Effects/chorus.h **** 
-  76:../DaisySP//Source/Effects/chorus.h ****     float feedback_;
-  77:../DaisySP//Source/Effects/chorus.h **** 
-  78:../DaisySP//Source/Effects/chorus.h ****     float delay_;
-  79:../DaisySP//Source/Effects/chorus.h **** 
-  80:../DaisySP//Source/Effects/chorus.h ****     DelayLine<float, kDelayLength> del_;
-  81:../DaisySP//Source/Effects/chorus.h **** 
-  82:../DaisySP//Source/Effects/chorus.h ****     float ProcessLfo();
-  83:../DaisySP//Source/Effects/chorus.h **** };
-  84:../DaisySP//Source/Effects/chorus.h **** 
-  85:../DaisySP//Source/Effects/chorus.h **** //wraps up all of the chorus engines
-  86:../DaisySP//Source/Effects/chorus.h **** /**  
-  87:../DaisySP//Source/Effects/chorus.h ****     @brief Chorus Effect.
-  88:../DaisySP//Source/Effects/chorus.h ****     @author Ben Sergentanis
-  89:../DaisySP//Source/Effects/chorus.h ****     @date Jan 2021
-  90:../DaisySP//Source/Effects/chorus.h ****     Based on https://www.izotope.com/en/learn/understanding-chorus-flangers-and-phasers-in-audio-pr
-  91:../DaisySP//Source/Effects/chorus.h ****     and https://www.researchgate.net/publication/236629475_Implementing_Professional_Audio_Effects_
-  92:../DaisySP//Source/Effects/chorus.h **** */
-  93:../DaisySP//Source/Effects/chorus.h **** class Chorus
-  94:../DaisySP//Source/Effects/chorus.h **** {
-  95:../DaisySP//Source/Effects/chorus.h ****   public:
-  96:../DaisySP//Source/Effects/chorus.h ****     Chorus() {}
-  97:../DaisySP//Source/Effects/chorus.h ****     ~Chorus() {}
-  79              		.loc 6 97 5 is_stmt 1 view -0
+  77              	.LFB5251:
+  78              		.file 6 "Delay.h"
+   1:Delay.h       **** #pragma once
+   2:Delay.h       **** #include  <vector>
+   3:Delay.h       **** 
+   4:Delay.h       **** class Delay 
+  79              		.loc 6 4 7 is_stmt 1 view -0
   80              		.cfi_startproc
   81              		@ args = 0, pretend = 0, frame = 0
   82              		@ frame_needed = 0, uses_anonymous_args = 0
-  83              		@ link register save eliminated.
-  84              		.loc 6 97 16 is_stmt 0 view .LVU11
-  85 0000 7047     		bx	lr
-  86              		.cfi_endproc
-  87              	.LFE4374:
-  89              		.weak	_ZN7daisysp6ChorusD1Ev
-  90              		.thumb_set _ZN7daisysp6ChorusD1Ev,_ZN7daisysp6ChorusD2Ev
-  91              		.section	.text._ZN7daisysp7TremoloD2Ev,"axG",%progbits,_ZN7daisysp7TremoloD5Ev,comdat
-  92              		.align	1
-  93              		.p2align 2,,3
-  94              		.weak	_ZN7daisysp7TremoloD2Ev
-  95              		.syntax unified
-  96              		.thumb
-  97              		.thumb_func
-  98              		.fpu fpv5-d16
- 100              	_ZN7daisysp7TremoloD2Ev:
- 101              	.LVL2:
- 102              	.LFB4432:
- 103              		.file 7 "../DaisySP//Source/Effects/tremolo.h"
-   1:../DaisySP//Source/Effects/tremolo.h **** /*
-   2:../DaisySP//Source/Effects/tremolo.h **** Copyright (c) 2020 Electrosmith, Corp
-   3:../DaisySP//Source/Effects/tremolo.h **** 
-   4:../DaisySP//Source/Effects/tremolo.h **** Use of this source code is governed by an MIT-style
-   5:../DaisySP//Source/Effects/tremolo.h **** license that can be found in the LICENSE file or at
-   6:../DaisySP//Source/Effects/tremolo.h **** https://opensource.org/licenses/MIT.
-   7:../DaisySP//Source/Effects/tremolo.h **** */
-   8:../DaisySP//Source/Effects/tremolo.h **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 11
+  83              		.loc 6 4 7 is_stmt 0 view .LVU11
+  84 0000 10B5     		push	{r4, lr}
+  85              		.cfi_def_cfa_offset 8
+  86              		.cfi_offset 4, -8
+  87              		.cfi_offset 14, -4
+  88              		.loc 6 4 7 view .LVU12
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 9
 
 
-   9:../DaisySP//Source/Effects/tremolo.h **** #pragma once
-  10:../DaisySP//Source/Effects/tremolo.h **** #ifndef DSY_TREMOLO_H
-  11:../DaisySP//Source/Effects/tremolo.h **** #define DSY_TREMOLO_H
-  12:../DaisySP//Source/Effects/tremolo.h **** 
-  13:../DaisySP//Source/Effects/tremolo.h **** #include <stdint.h>
-  14:../DaisySP//Source/Effects/tremolo.h **** #ifdef __cplusplus
-  15:../DaisySP//Source/Effects/tremolo.h **** 
-  16:../DaisySP//Source/Effects/tremolo.h **** #include <math.h>
-  17:../DaisySP//Source/Effects/tremolo.h **** #include "Synthesis/oscillator.h"
-  18:../DaisySP//Source/Effects/tremolo.h **** 
-  19:../DaisySP//Source/Effects/tremolo.h **** /** @file tremolo.h */
-  20:../DaisySP//Source/Effects/tremolo.h **** 
-  21:../DaisySP//Source/Effects/tremolo.h **** namespace daisysp
-  22:../DaisySP//Source/Effects/tremolo.h **** {
-  23:../DaisySP//Source/Effects/tremolo.h **** /**  
-  24:../DaisySP//Source/Effects/tremolo.h ****     @brief Tremolo effect.
-  25:../DaisySP//Source/Effects/tremolo.h ****     @author Ben Sergentanis
-  26:../DaisySP//Source/Effects/tremolo.h ****     @date Jan 2021
-  27:../DaisySP//Source/Effects/tremolo.h ****     Based on https://christianfloisand.wordpress.com/2012/04/18/coding-some-tremolo/ \n
-  28:../DaisySP//Source/Effects/tremolo.h **** */
-  29:../DaisySP//Source/Effects/tremolo.h **** class Tremolo
-  30:../DaisySP//Source/Effects/tremolo.h **** {
-  31:../DaisySP//Source/Effects/tremolo.h ****   public:
-  32:../DaisySP//Source/Effects/tremolo.h ****     Tremolo() {}
-  33:../DaisySP//Source/Effects/tremolo.h ****     ~Tremolo() {}
- 104              		.loc 7 33 5 is_stmt 1 view -0
- 105              		.cfi_startproc
- 106              		@ args = 0, pretend = 0, frame = 0
- 107              		@ frame_needed = 0, uses_anonymous_args = 0
- 108              		@ link register save eliminated.
- 109              	.LBB155:
- 110              	.LBI155:
- 111              		.file 8 "../DaisySP//Source/Synthesis/oscillator.h"
-   1:../DaisySP//Source/Synthesis/oscillator.h **** /*
-   2:../DaisySP//Source/Synthesis/oscillator.h **** Copyright (c) 2020 Electrosmith, Corp
-   3:../DaisySP//Source/Synthesis/oscillator.h **** 
-   4:../DaisySP//Source/Synthesis/oscillator.h **** Use of this source code is governed by an MIT-style
-   5:../DaisySP//Source/Synthesis/oscillator.h **** license that can be found in the LICENSE file or at
-   6:../DaisySP//Source/Synthesis/oscillator.h **** https://opensource.org/licenses/MIT.
-   7:../DaisySP//Source/Synthesis/oscillator.h **** */
-   8:../DaisySP//Source/Synthesis/oscillator.h **** 
-   9:../DaisySP//Source/Synthesis/oscillator.h **** #pragma once
-  10:../DaisySP//Source/Synthesis/oscillator.h **** #ifndef DSY_OSCILLATOR_H
-  11:../DaisySP//Source/Synthesis/oscillator.h **** #define DSY_OSCILLATOR_H
-  12:../DaisySP//Source/Synthesis/oscillator.h **** #include <stdint.h>
-  13:../DaisySP//Source/Synthesis/oscillator.h **** #include "Utility/dsp.h"
-  14:../DaisySP//Source/Synthesis/oscillator.h **** #ifdef __cplusplus
-  15:../DaisySP//Source/Synthesis/oscillator.h **** 
-  16:../DaisySP//Source/Synthesis/oscillator.h **** namespace daisysp
-  17:../DaisySP//Source/Synthesis/oscillator.h **** {
-  18:../DaisySP//Source/Synthesis/oscillator.h **** /** Synthesis of several waveforms, including polyBLEP bandlimited waveforms.
-  19:../DaisySP//Source/Synthesis/oscillator.h **** */
-  20:../DaisySP//Source/Synthesis/oscillator.h **** class Oscillator
-  21:../DaisySP//Source/Synthesis/oscillator.h **** {
-  22:../DaisySP//Source/Synthesis/oscillator.h ****   public:
-  23:../DaisySP//Source/Synthesis/oscillator.h ****     Oscillator() {}
-  24:../DaisySP//Source/Synthesis/oscillator.h ****     ~Oscillator() {}
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 12
-
-
- 112              		.loc 8 24 5 view .LVU13
- 113              		.loc 8 24 5 is_stmt 0 view .LVU14
- 114              	.LBE155:
- 115              		.loc 7 33 17 view .LVU15
- 116 0000 7047     		bx	lr
- 117              		.cfi_endproc
- 118              	.LFE4432:
- 120              		.weak	_ZN7daisysp7TremoloD1Ev
- 121              		.thumb_set _ZN7daisysp7TremoloD1Ev,_ZN7daisysp7TremoloD2Ev
- 122 0002 00BF     		.section	.text._ZN5DelayD2Ev,"axG",%progbits,_ZN5DelayD5Ev,comdat
- 123              		.align	1
- 124              		.p2align 2,,3
- 125              		.weak	_ZN5DelayD2Ev
- 126              		.syntax unified
- 127              		.thumb
- 128              		.thumb_func
- 129              		.fpu fpv5-d16
- 131              	_ZN5DelayD2Ev:
- 132              	.LVL3:
- 133              	.LFB5251:
- 134              		.file 9 "Delay.h"
-   1:Delay.h       **** #include  <vector>
-   2:Delay.h       **** 
-   3:Delay.h       **** class Delay 
- 135              		.loc 9 3 7 is_stmt 1 view -0
- 136              		.cfi_startproc
- 137              		@ args = 0, pretend = 0, frame = 0
- 138              		@ frame_needed = 0, uses_anonymous_args = 0
- 139              		.loc 9 3 7 is_stmt 0 view .LVU17
- 140 0000 10B5     		push	{r4, lr}
- 141              		.cfi_def_cfa_offset 8
- 142              		.cfi_offset 4, -8
- 143              		.cfi_offset 14, -4
- 144              		.loc 9 3 7 view .LVU18
- 145 0002 0446     		mov	r4, r0
- 146              	.LVL4:
- 147              	.LBB173:
- 148              	.LBI173:
- 149              		.file 10 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_vector
+  89 0002 0446     		mov	r4, r0
+  90              	.LVL2:
+  91              	.LBB132:
+  92              	.LBI132:
+  93              		.file 7 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_vector.
    1:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** // Vector implementation -*- C++ -*-
    2:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
    3:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** // Copyright (C) 2001-2020 Free Software Foundation, Inc.
@@ -718,9 +504,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   16:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** // Under Section 7 of GPL version 3, you are granted additional
   17:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** // permissions described in the GCC Runtime Library Exception, version
   18:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** // 3.1, as published by the Free Software Foundation.
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 13
-
-
   19:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
   20:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** // You should have received a copy of the GNU General Public License and
   21:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** // a copy of the GCC Runtime Library Exception along with this program;
@@ -755,6 +538,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   50:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
   51:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** /** @file bits/stl_vector.h
   52:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****  *  This is an internal header file, included by other library headers.
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 10
+
+
   53:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****  *  Do not attempt to use it directly. @headername{vector}
   54:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****  */
   55:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
@@ -778,9 +564,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   73:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** __sanitizer_annotate_contiguous_container(const void*, const void*,
   74:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 					  const void*, const void*);
   75:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** #endif
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 14
-
-
   76:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
   77:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** namespace std _GLIBCXX_VISIBILITY(default)
   78:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** {
@@ -815,6 +598,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  107:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  108:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	void
  109:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	_M_copy_data(_Vector_impl_data const& __x) _GLIBCXX_NOEXCEPT
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 11
+
+
  110:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	{
  111:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	  _M_start = __x._M_start;
  112:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	  _M_finish = __x._M_finish;
@@ -838,9 +624,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  130:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       {
  131:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	_Vector_impl() _GLIBCXX_NOEXCEPT_IF(
  132:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    is_nothrow_default_constructible<_Tp_alloc_type>::value)
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 15
-
-
  133:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	: _Tp_alloc_type()
  134:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	{ }
  135:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
@@ -875,6 +658,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  164:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    static void _S_on_dealloc(_Vector_impl&) { }
  165:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  166:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    typedef _Vector_impl& _Reinit;
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 12
+
+
  167:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  168:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    struct _Grow
  169:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    {
@@ -898,9 +684,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  187:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	      __sanitizer_annotate_contiguous_container(__impl._M_start,
  188:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 		  __impl._M_end_of_storage, __prev, __curr);
  189:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    }
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 16
-
-
  190:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  191:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    static void
  192:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    _S_grow(_Vector_impl& __impl, size_type __n)
@@ -935,6 +718,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  221:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	      }
  222:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  223:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	      _Vector_impl& _M_impl;
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 13
+
+
  224:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  225:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** #if __cplusplus >= 201103L
  226:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	      _Reinit(const _Reinit&) = delete;
@@ -958,9 +744,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  244:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	      _Grow& operator=(const _Grow&) = delete;
  245:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** #endif
  246:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    private:
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 17
-
-
  247:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	      _Vector_impl& _M_impl;
  248:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	      size_type _M_n;
  249:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    };
@@ -995,6 +778,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  278:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  279:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       const _Tp_alloc_type&
  280:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       _M_get_Tp_allocator() const _GLIBCXX_NOEXCEPT
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 14
+
+
  281:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       { return this->_M_impl; }
  282:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  283:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       allocator_type
@@ -1018,9 +804,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  301:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** #endif
  302:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  303:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       _Vector_base(size_t __n, const allocator_type& __a)
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 18
-
-
  304:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       : _M_impl(__a)
  305:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       { _M_create_storage(__n); }
  306:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
@@ -1055,6 +838,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  335:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	_M_deallocate(_M_impl._M_start,
  336:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 		      _M_impl._M_end_of_storage - _M_impl._M_start);
  337:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       }
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 15
+
+
  338:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  339:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****     public:
  340:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       _Vector_impl _M_impl;
@@ -1078,9 +864,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  358:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       void
  359:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       _M_create_storage(size_t __n)
  360:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       {
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 19
-
-
  361:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	this->_M_impl._M_start = this->_M_allocate(__n);
  362:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	this->_M_impl._M_finish = this->_M_impl._M_start;
  363:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	this->_M_impl._M_end_of_storage = this->_M_impl._M_start + __n;
@@ -1115,6 +898,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  392:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       // Concept requirements.
  393:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       typedef typename _Alloc::value_type		_Alloc_value_type;
  394:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** # if __cplusplus < 201103L
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 16
+
+
  395:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       __glibcxx_class_requires(_Tp, _SGIAssignableConcept)
  396:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** # endif
  397:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       __glibcxx_class_requires2(_Tp, _Alloc_value_type, _SameTypeConcept)
@@ -1138,9 +924,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  415:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       typedef typename _Base::pointer			pointer;
  416:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       typedef typename _Alloc_traits::const_pointer	const_pointer;
  417:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       typedef typename _Alloc_traits::reference		reference;
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 20
-
-
  418:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       typedef typename _Alloc_traits::const_reference	const_reference;
  419:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       typedef __gnu_cxx::__normal_iterator<pointer, vector> iterator;
  420:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       typedef __gnu_cxx::__normal_iterator<const_pointer, vector>
@@ -1175,6 +958,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  449:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	return _S_nothrow_relocate(__is_move_insertable<_Tp_alloc_type>{});
  450:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       }
  451:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 17
+
+
  452:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       static pointer
  453:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       _S_do_relocate(pointer __first, pointer __last, pointer __result,
  454:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 		     _Tp_alloc_type& __alloc, true_type) noexcept
@@ -1198,9 +984,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  472:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  473:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****     protected:
  474:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       using _Base::_M_allocate;
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 21
-
-
  475:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       using _Base::_M_deallocate;
  476:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       using _Base::_M_impl;
  477:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       using _Base::_M_get_Tp_allocator;
@@ -1235,6 +1018,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  506:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  This constructor fills the %vector with @a __n default
  507:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  constructed elements.
  508:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        */
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 18
+
+
  509:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       explicit
  510:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       vector(size_type __n, const allocator_type& __a = allocator_type())
  511:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       : _Base(_S_check_init_len(__n, __a), __a)
@@ -1258,9 +1044,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  529:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  @param  __n  The number of elements to initially create.
  530:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  @param  __value  An element to copy.
  531:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  @param  __a  An allocator.
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 22
-
-
  532:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *
  533:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  This constructor fills the %vector with @a __n copies of @a __value.
  534:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        */
@@ -1295,6 +1078,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  563:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** #if __cplusplus >= 201103L
  564:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       /**
  565:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  @brief  %Vector move constructor.
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 19
+
+
  566:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *
  567:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  The newly-created %vector contains the exact contents of the
  568:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  moved instance.
@@ -1318,9 +1104,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  586:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       : _Base(__m, std::move(__rv))
  587:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       { }
  588:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 23
-
-
  589:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       vector(vector&& __rv, const allocator_type& __m, false_type)
  590:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       : _Base(__m)
  591:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       {
@@ -1355,6 +1138,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  620:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  initializer_list @a __l.
  621:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *
  622:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  This will call the element type's copy constructor N times
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 20
+
+
  623:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  (where N is @a __l.size()) and do no memory reallocation.
  624:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        */
  625:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       vector(initializer_list<value_type> __l,
@@ -1378,9 +1164,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  643:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  If the iterators are forward, bidirectional, or
  644:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  random-access, then this will call the elements' copy
  645:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  constructor N times (where N is distance(first,last)) and do
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 24
-
-
  646:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  no memory reallocation.  But if only input iterators are
  647:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  used, then this will do at most 2N calls to the copy
  648:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  constructor, and logN memory reallocations.
@@ -1414,17 +1197,20 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  676:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  responsibility.
  677:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        */
  678:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       ~vector() _GLIBCXX_NOEXCEPT
- 150              		.loc 10 678 7 is_stmt 1 view .LVU19
- 151              	.LBB174:
- 152              	.LBI174:
+  94              		.loc 7 678 7 is_stmt 1 view .LVU13
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 21
+
+
+  95              	.LBB133:
+  96              	.LBI133:
  276:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       { return this->_M_impl; }
- 153              		.loc 10 276 7 view .LVU20
+  97              		.loc 7 276 7 view .LVU14
  276:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       { return this->_M_impl; }
- 154              		.loc 10 276 7 is_stmt 0 view .LVU21
- 155              	.LBE174:
- 156              	.LBB175:
- 157              	.LBI175:
- 158              		.file 11 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\alloc_trai
+  98              		.loc 7 276 7 is_stmt 0 view .LVU15
+  99              	.LBE133:
+ 100              	.LBB134:
+ 101              	.LBI134:
+ 102              		.file 8 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\alloc_trait
    1:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** // Allocator traits -*- C++ -*-
    2:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
    3:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** // Copyright (C) 2011-2020 Free Software Foundation, Inc.
@@ -1438,9 +1224,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   11:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** // This library is distributed in the hope that it will be useful,
   12:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** // but WITHOUT ANY WARRANTY; without even the implied warranty of
   13:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 25
-
-
   14:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** // GNU General Public License for more details.
   15:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
   16:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** // Under Section 7 of GPL version 3, you are granted additional
@@ -1475,6 +1258,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   45:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #if __cplusplus >= 201103L
   46:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #define __cpp_lib_allocator_traits_is_always_equal 201411
   47:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 22
+
+
   48:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****   struct __allocator_traits_base
   49:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****   {
   50:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     template<typename _Tp, typename _Up, typename = void>
@@ -1498,9 +1284,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   68:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       using __pocca = typename _Tp::propagate_on_container_copy_assignment;
   69:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     template<typename _Tp>
   70:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       using __pocma = typename _Tp::propagate_on_container_move_assignment;
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 26
-
-
   71:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     template<typename _Tp>
   72:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       using __pocs = typename _Tp::propagate_on_container_swap;
   73:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     template<typename _Tp>
@@ -1535,6 +1318,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  102:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<template<typename> class _Func, typename _Tp, typename = void>
  103:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	struct _Ptr
  104:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	{
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 23
+
+
  105:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	  using type = typename pointer_traits<pointer>::template rebind<_Tp>;
  106:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	};
  107:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
@@ -1558,9 +1344,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  125:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	struct _Size : make_unsigned<_DiffT> { };
  126:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  127:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _A2, typename _DiffT>
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 27
-
-
  128:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	struct _Size<_A2, _DiffT, __void_t<typename _A2::size_type>>
  129:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	{ using type = typename _A2::size_type; };
  130:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
@@ -1595,6 +1378,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  159:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        * @c Alloc::difference_type if that type exists, otherwise
  160:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        * <tt> pointer_traits<pointer>::difference_type </tt>
  161:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       */
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 24
+
+
  162:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       using difference_type = typename _Diff<_Alloc, pointer>::type;
  163:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  164:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       /**
@@ -1618,9 +1404,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  182:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        * @brief   How the allocator is propagated on move assignment
  183:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *
  184:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        * @c Alloc::propagate_on_container_move_assignment if that type exists,
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 28
-
-
  185:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        * otherwise @c false_type
  186:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       */
  187:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       using propagate_on_container_move_assignment
@@ -1655,6 +1438,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  216:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	_S_allocate(_Alloc2& __a, size_type __n, const_void_pointer __hint, int)
  217:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	-> decltype(__a.allocate(__n, __hint))
  218:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	{ return __a.allocate(__n, __hint); }
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 25
+
+
  219:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  220:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _Alloc2>
  221:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	static constexpr pointer
@@ -1678,9 +1464,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  239:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _Tp, typename... _Args>
  240:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	using __has_construct
  241:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	  = typename __construct_helper<_Tp, _Args...>::type;
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 29
-
-
  242:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  243:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _Tp, typename... _Args>
  244:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	static _GLIBCXX14_CONSTEXPR _Require<__has_construct<_Tp, _Args...>>
@@ -1715,6 +1498,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  273:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	noexcept(std::is_nothrow_destructible<_Tp>::value)
  274:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	{ std::_Destroy(__p); }
  275:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 26
+
+
  276:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _Alloc2>
  277:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	static constexpr auto
  278:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	_S_max_size(_Alloc2& __a, int)
@@ -1738,9 +1524,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  296:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	{ return __a.select_on_container_copy_construction(); }
  297:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  298:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _Alloc2>
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 30
-
-
  299:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	static constexpr _Alloc2
  300:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	_S_select(_Alloc2& __a, ...)
  301:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	{ return __a; }
@@ -1775,6 +1558,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  330:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  331:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       /**
  332:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  @brief  Deallocate memory.
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 27
+
+
  333:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  @param  __a  An allocator.
  334:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  @param  __p  Pointer to the memory to deallocate.
  335:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  @param  __n  The number of objects space was allocated for.
@@ -1798,9 +1584,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  353:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       */
  354:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _Tp, typename... _Args>
  355:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	static _GLIBCXX20_CONSTEXPR auto
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 31
-
-
  356:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	construct(_Alloc& __a, _Tp* __p, _Args&&... __args)
  357:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	noexcept(noexcept(_S_construct(__a, __p,
  358:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 				       std::forward<_Args>(__args)...)))
@@ -1835,6 +1618,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  387:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  388:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       /**
  389:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  @brief  Obtain an allocator to use when copying a container.
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 28
+
+
  390:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  @param  __rhs  An allocator.
  391:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  @return @c __rhs.select_on_container_copy_construction() or @a __rhs
  392:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *
@@ -1858,9 +1644,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  410:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       using allocator_type = allocator<_Tp>;
  411:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  412:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       /// The allocated type
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 32
-
-
  413:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       using value_type = _Tp;
  414:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  415:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       /// The allocator's pointer type.
@@ -1895,6 +1678,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  444:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  445:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _Up>
  446:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	using rebind_alloc = allocator<_Up>;
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 29
+
+
  447:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  448:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _Up>
  449:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	using rebind_traits = allocator_traits<allocator<_Up>>;
@@ -1918,9 +1704,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  467:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  @return Memory of suitable size and alignment for @a n objects
  468:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *          of type @c value_type
  469:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 33
-
-
  470:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  Returns <tt> a.allocate(n, hint) </tt>
  471:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       */
  472:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       _GLIBCXX_NODISCARD static _GLIBCXX20_CONSTEXPR pointer
@@ -1955,6 +1738,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  501:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  Calls `__a.construct(__p, std::forward<_Args>(__args)...)`
  502:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  in C++11, C++14 and C++17. Changed in C++20 to call
  503:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  `std::construct_at(__p, std::forward<_Args>(__args)...)` instead.
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 30
+
+
  504:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       */
  505:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _Up, typename... _Args>
  506:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	static _GLIBCXX20_CONSTEXPR void
@@ -1978,9 +1764,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  524:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       */
  525:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _Up>
  526:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	static _GLIBCXX20_CONSTEXPR void
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 34
-
-
  527:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	destroy(allocator_type& __a __attribute__((__unused__)), _Up* __p)
  528:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	noexcept(is_nothrow_destructible<_Up>::value)
  529:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	{
@@ -2015,6 +1798,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  558:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       select_on_container_copy_construction(const allocator_type& __rhs)
  559:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       { return __rhs; }
  560:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     };
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 31
+
+
  561:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  562:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #if __cplusplus < 201703L
  563:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****   template<typename _Alloc>
@@ -2038,9 +1824,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  581:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       if constexpr (__pocca::value)
  582:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	__one = __two;
  583:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #else
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 35
-
-
  584:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       __do_alloc_on_copy(__one, __two, __pocca());
  585:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #endif
  586:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     }
@@ -2075,6 +1858,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  615:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #else
  616:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       __do_alloc_on_move(__one, __two, __pocma());
  617:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #endif
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 32
+
+
  618:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     }
  619:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  620:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #if __cplusplus < 201703L
@@ -2098,9 +1884,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  638:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       typedef typename __traits::propagate_on_container_swap __pocs;
  639:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #if __cplusplus >= 201703L
  640:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       if constexpr (__pocs::value)
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 36
-
-
  641:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	{
  642:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	  using std::swap;
  643:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	  swap(__one, __two);
@@ -2135,6 +1918,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  672:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     { };
  673:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  674:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****   // std::allocator<_Tp> just requires CopyConstructible
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 33
+
+
  675:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****   template<typename _Tp>
  676:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     struct __is_copy_insertable<allocator<_Tp>>
  677:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     : is_copy_constructible<_Tp>
@@ -2158,9 +1944,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  695:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****   template<typename _Alloc, typename = void>
  696:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     struct __is_allocator : false_type { };
  697:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 37
-
-
  698:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****   template<typename _Alloc>
  699:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     struct __is_allocator<_Alloc,
  700:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       __void_t<typename _Alloc::value_type,
@@ -2195,42 +1978,42 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  729:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 					      std::__addressof(*__first));
  730:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #endif
  731:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     }
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 34
+
+
  732:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  733:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****   template<typename _ForwardIterator, typename _Tp>
  734:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     inline void
  735:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     _Destroy(_ForwardIterator __first, _ForwardIterator __last,
- 159              		.loc 11 735 5 is_stmt 1 view .LVU22
- 160              		.loc 11 735 5 is_stmt 0 view .LVU23
- 161              	.LBE175:
- 162              	.LBB176:
- 163              	.LBI176:
+ 103              		.loc 8 735 5 is_stmt 1 view .LVU16
+ 104              		.loc 8 735 5 is_stmt 0 view .LVU17
+ 105              	.LBE134:
+ 106              	.LBB135:
+ 107              	.LBI135:
  333:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       {
- 164              		.loc 10 333 7 is_stmt 1 view .LVU24
- 165              	.LBB177:
+ 108              		.loc 7 333 7 is_stmt 1 view .LVU18
+ 109              	.LBB136:
  335:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 		      _M_impl._M_end_of_storage - _M_impl._M_start);
- 166              		.loc 10 335 15 is_stmt 0 view .LVU25
- 167 0004 C068     		ldr	r0, [r0, #12]
- 168              	.LVL5:
- 169              	.LBB178:
- 170              	.LBI178:
+ 110              		.loc 7 335 15 is_stmt 0 view .LVU19
+ 111 0004 0068     		ldr	r0, [r0]
+ 112              	.LVL3:
+ 113              	.LBB137:
+ 114              	.LBI137:
  350:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       {
- 171              		.loc 10 350 7 is_stmt 1 view .LVU26
- 172              	.LBB179:
+ 115              		.loc 7 350 7 is_stmt 1 view .LVU20
+ 116              	.LBB138:
  353:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	  _Tr::deallocate(_M_impl, __p, __n);
- 173              		.loc 10 353 2 is_stmt 0 view .LVU27
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 38
-
-
- 174 0006 18B1     		cbz	r0, .L6
- 175              	.LVL6:
- 176              	.LBB180:
- 177              	.LBI180:
+ 117              		.loc 7 353 2 is_stmt 0 view .LVU21
+ 118 0006 18B1     		cbz	r0, .L4
+ 119              	.LVL4:
+ 120              	.LBB139:
+ 121              	.LBI139:
  491:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       { __a.deallocate(__p, __n); }
- 178              		.loc 11 491 7 is_stmt 1 view .LVU28
- 179              	.LBB181:
- 180              	.LBB182:
- 181              	.LBI182:
- 182              		.file 12 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\ext\\new_allocat
+ 122              		.loc 8 491 7 is_stmt 1 view .LVU22
+ 123              	.LBB140:
+ 124              	.LBB141:
+ 125              	.LBI141:
+ 126              		.file 9 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\ext\\new_allocato
    1:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** // Allocator that wraps operator new -*- C++ -*-
    2:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 
    3:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** // Copyright (C) 2001-2020 Free Software Foundation, Inc.
@@ -2255,6 +2038,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   22:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** // see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
   23:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** // <http://www.gnu.org/licenses/>.
   24:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 35
+
+
   25:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** /** @file ext/new_allocator.h
   26:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****  *  This file is a GNU extension to the Standard C++ Library.
   27:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****  */
@@ -2278,9 +2064,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   45:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****    *  @brief  An allocator that uses global new, as per [20.4].
   46:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****    *  @ingroup allocators
   47:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****    *
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 39
-
-
   48:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****    *  This is precisely the allocator defined in the C++ Standard.
   49:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****    *    - all allocation calls operator new
   50:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****    *    - all deallocation calls operator delete
@@ -2315,6 +2098,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   79:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       new_allocator() _GLIBCXX_USE_NOEXCEPT { }
   80:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 
   81:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       _GLIBCXX20_CONSTEXPR
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 36
+
+
   82:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       new_allocator(const new_allocator&) _GLIBCXX_USE_NOEXCEPT { }
   83:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 
   84:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       template<typename _Tp1>
@@ -2338,9 +2124,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  102:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       _GLIBCXX_NODISCARD _Tp*
  103:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       allocate(size_type __n, const void* = static_cast<const void*>(0))
  104:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       {
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 40
-
-
  105:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 	if (__n > this->_M_max_size())
  106:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 	  std::__throw_bad_alloc();
  107:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 
@@ -2357,24 +2140,27 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  118:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       // __p is not permitted to be a null pointer.
  119:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       void
  120:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       deallocate(_Tp* __p, size_type __t)
- 183              		.loc 12 120 7 view .LVU29
- 184              	.LBE182:
- 185              	.LBE181:
- 186              	.LBE180:
- 187              	.LBE179:
- 188              	.LBE178:
+ 127              		.loc 9 120 7 view .LVU23
+ 128              	.LBE141:
+ 129              	.LBE140:
+ 130              	.LBE139:
+ 131              	.LBE138:
+ 132              	.LBE137:
  336:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       }
- 189              		.loc 10 336 35 is_stmt 0 view .LVU30
- 190 0008 6169     		ldr	r1, [r4, #20]
- 191              	.LBB188:
- 192              	.LBB187:
- 193              	.LBB186:
- 194              	.LBB185:
- 195              	.LBB184:
- 196              	.LBB183:
+ 133              		.loc 7 336 35 is_stmt 0 view .LVU24
+ 134 0008 A168     		ldr	r1, [r4, #8]
+ 135              	.LBB147:
+ 136              	.LBB146:
+ 137              	.LBB145:
+ 138              	.LBB144:
+ 139              	.LBB143:
+ 140              	.LBB142:
  121:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       {
  122:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** #if __cpp_aligned_new
  123:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 	if (alignof(_Tp) > __STDCPP_DEFAULT_NEW_ALIGNMENT__)
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 37
+
+
  124:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 	  {
  125:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 	    ::operator delete(__p,
  126:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** # if __cpp_sized_deallocation
@@ -2385,28 +2171,25 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  131:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 	  }
  132:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** #endif
  133:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 	::operator delete(__p
- 197              		.loc 12 133 19 view .LVU31
- 198 000a 091A     		subs	r1, r1, r0
- 199 000c FFF7FEFF 		bl	_ZdlPvj
- 200              	.LVL7:
- 201              	.L6:
- 202              		.loc 12 133 19 view .LVU32
- 203              	.LBE183:
- 204              	.LBE184:
- 205              	.LBE185:
- 206              	.LBE186:
- 207              	.LBE187:
- 208              	.LBE188:
- 209              	.LBB189:
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 41
-
-
- 210              	.LBI189:
+ 141              		.loc 9 133 19 view .LVU25
+ 142 000a 091A     		subs	r1, r1, r0
+ 143 000c FFF7FEFF 		bl	_ZdlPvj
+ 144              	.LVL5:
+ 145              	.L4:
+ 146              		.loc 9 133 19 view .LVU26
+ 147              	.LBE142:
+ 148              	.LBE143:
+ 149              	.LBE144:
+ 150              	.LBE145:
+ 151              	.LBE146:
+ 152              	.LBE147:
+ 153              	.LBB148:
+ 154              	.LBI148:
  128:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	: public _Tp_alloc_type, public _Vector_impl_data
- 211              		.loc 10 128 14 is_stmt 1 view .LVU33
- 212              	.LBB190:
- 213              	.LBI190:
- 214              		.file 13 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\allocator.
+ 155              		.loc 7 128 14 is_stmt 1 view .LVU27
+ 156              	.LBB149:
+ 157              	.LBI149:
+ 158              		.file 10 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\allocator.
    1:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** // Allocators -*- C++ -*-
    2:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 
    3:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** // Copyright (C) 2001-2020 Free Software Foundation, Inc.
@@ -2435,6 +2218,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   26:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****  * Copyright (c) 1996-1997
   27:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****  * Silicon Graphics Computer Systems, Inc.
   28:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****  *
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 38
+
+
   29:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****  * Permission to use, copy, modify, distribute and sell this software
   30:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****  * and its documentation for any purpose is hereby granted without fee,
   31:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****  * provided that the above copyright notice appear in all copies and
@@ -2458,9 +2244,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   49:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** #include <type_traits>
   50:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** #endif
   51:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 42
-
-
   52:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** #define __cpp_lib_incomplete_container_elements 201505
   53:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 
   54:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** namespace std _GLIBCXX_VISIBILITY(default)
@@ -2495,6 +2278,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   83:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 	allocator(const allocator<_Up>&) { }
   84:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** #endif // ! C++20
   85:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 39
+
+
   86:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** #if __cplusplus >= 201103L && __cplusplus <= 201703L
   87:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****       // _GLIBCXX_RESOLVE_LIB_DEFECTS
   88:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****       // 2103. std::allocator propagate_on_container_move_assignment
@@ -2518,9 +2304,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  106:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 
  107:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****   /**
  108:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****    * @brief  The @a standard allocator, as per [20.4].
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 43
-
-
  109:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****    *
  110:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****    *  See https://gcc.gnu.org/onlinedocs/libstdc++/manual/memory.html#std.util.memory.allocator
  111:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****    *  for further details.
@@ -2555,6 +2338,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  140:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 
  141:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****       // _GLIBCXX_RESOLVE_LIB_DEFECTS
  142:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****       // 3035. std::allocator's constructors should be constexpr
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 40
+
+
  143:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****       _GLIBCXX20_CONSTEXPR
  144:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****       allocator() _GLIBCXX_NOTHROW { }
  145:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 
@@ -2575,47 +2361,46 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  160:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****       constexpr
  161:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** #endif
  162:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****       ~allocator() _GLIBCXX_NOTHROW { }
- 215              		.loc 13 162 7 view .LVU34
- 216              	.LBB191:
- 217              	.LBI191:
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 44
-
-
+ 159              		.loc 10 162 7 view .LVU28
+ 160              	.LBB150:
+ 161              	.LBI150:
   89:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 
- 218              		.loc 12 89 7 view .LVU35
+ 162              		.loc 9 89 7 view .LVU29
   89:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 
- 219              		.loc 12 89 7 is_stmt 0 view .LVU36
- 220              	.LBE191:
- 221              	.LBE190:
- 222              	.LBE189:
- 223              	.LBE177:
- 224              	.LBE176:
- 225              	.LBE173:
- 226              		.loc 9 3 7 view .LVU37
- 227 0010 2046     		mov	r0, r4
- 228 0012 10BD     		pop	{r4, pc}
- 229              		.loc 9 3 7 view .LVU38
- 230              		.cfi_endproc
- 231              	.LFE5251:
- 233              		.weak	_ZN5DelayD1Ev
- 234              		.thumb_set _ZN5DelayD1Ev,_ZN5DelayD2Ev
- 235              		.section	.text._Z13AudioCallbackPKPKfPPfj,"ax",%progbits
- 236              		.align	1
- 237              		.p2align 2,,3
- 238              		.global	_Z13AudioCallbackPKPKfPPfj
- 239              		.syntax unified
- 240              		.thumb
- 241              		.thumb_func
- 242              		.fpu fpv5-d16
- 244              	_Z13AudioCallbackPKPKfPPfj:
- 245              	.LVL8:
- 246              	.LFB4684:
- 247              		.file 14 "testproj.cpp"
+ 163              		.loc 9 89 7 is_stmt 0 view .LVU30
+ 164              	.LBE150:
+ 165              	.LBE149:
+ 166              	.LBE148:
+ 167              	.LBE136:
+ 168              	.LBE135:
+ 169              	.LBE132:
+ 170              		.loc 6 4 7 view .LVU31
+ 171 0010 2046     		mov	r0, r4
+ 172 0012 10BD     		pop	{r4, pc}
+ 173              		.loc 6 4 7 view .LVU32
+ 174              		.cfi_endproc
+ 175              	.LFE5251:
+ 177              		.weak	_ZN5DelayD1Ev
+ 178              		.thumb_set _ZN5DelayD1Ev,_ZN5DelayD2Ev
+ 179              		.section	.text._Z13InitializeADCv,"ax",%progbits
+ 180              		.align	1
+ 181              		.p2align 2,,3
+ 182              		.global	_Z13InitializeADCv
+ 183              		.syntax unified
+ 184              		.thumb
+ 185              		.thumb_func
+ 186              		.fpu fpv5-d16
+ 188              	_Z13InitializeADCv:
+ 189              	.LFB4686:
+ 190              		.file 11 "testproj.cpp"
    1:testproj.cpp  **** #include "daisy_seed.h"
    2:testproj.cpp  **** #include "daisysp.h"
    3:testproj.cpp  **** #include "Delay.h"
    4:testproj.cpp  **** 
    5:testproj.cpp  **** using namespace daisy;
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 41
+
+
    6:testproj.cpp  **** using namespace daisy::seed;
    7:testproj.cpp  **** using namespace daisysp;
    8:testproj.cpp  **** 
@@ -2628,570 +2413,496 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   15:testproj.cpp  **** 	NUM_ADC_CHANNELS
   16:testproj.cpp  **** };
   17:testproj.cpp  **** 
-  18:testproj.cpp  **** DaisySeed hw;
-  19:testproj.cpp  **** Chorus chorus;
-  20:testproj.cpp  **** Tremolo tremolo;
-  21:testproj.cpp  **** Delay delay(22050, 0.5, 44100);
+  18:testproj.cpp  **** static const float sampleRate = 48000.0f;
+  19:testproj.cpp  **** 
+  20:testproj.cpp  **** DaisySeed hw;
+  21:testproj.cpp  **** Delay delay(48000.0f, 24000.0f, 0.5f, sampleRate);
   22:testproj.cpp  **** float x;
   23:testproj.cpp  **** float y;
   24:testproj.cpp  **** 
   25:testproj.cpp  **** void InitializeADC();
   26:testproj.cpp  **** void ProcessADC();
   27:testproj.cpp  **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 45
-
-
   28:testproj.cpp  **** void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
   29:testproj.cpp  **** {
- 248              		.loc 14 29 1 is_stmt 1 view -0
- 249              		.cfi_startproc
- 250              		@ args = 0, pretend = 0, frame = 0
- 251              		@ frame_needed = 0, uses_anonymous_args = 0
-  30:testproj.cpp  **** 	float sig;
- 252              		.loc 14 30 2 view .LVU40
-  31:testproj.cpp  **** 	ProcessADC();
- 253              		.loc 14 31 2 view .LVU41
- 254              	.LBB195:
- 255              	.LBI195:
-  32:testproj.cpp  **** 	//tremolo.SetDepth(1);
-  33:testproj.cpp  **** 	//tremolo.SetFreq(y);
-  34:testproj.cpp  **** 	//chorus.SetLfoDepth(x);
-  35:testproj.cpp  **** 	//delay.setDelaySize(x);
-  36:testproj.cpp  **** 
-  37:testproj.cpp  **** 	for (size_t i = 0; i < size; i++)
-  38:testproj.cpp  **** 	{
-  39:testproj.cpp  **** 		
-  40:testproj.cpp  **** 		sig = in[1][i] * 10;
-  41:testproj.cpp  **** 		//sig = tremolo.Process(sig);
-  42:testproj.cpp  **** 		//sig = chorus.Process(sig);
-  43:testproj.cpp  **** 		sig = delay.ProcessSample(sig);
-  44:testproj.cpp  **** 		out[0][i] = sig;
-  45:testproj.cpp  **** 		out[1][i] = sig;
-  46:testproj.cpp  **** 		
-  47:testproj.cpp  **** 	}
-  48:testproj.cpp  **** }
+  30:testproj.cpp  **** 	ProcessADC();
+  31:testproj.cpp  **** 	delay.setDelaySize(x);
+  32:testproj.cpp  **** 	delay.setFeedback(y);
+  33:testproj.cpp  **** 
+  34:testproj.cpp  **** 	for (size_t i = 0; i < size; i++)
+  35:testproj.cpp  **** 	{
+  36:testproj.cpp  **** 		float sig = in[1][i];
+  37:testproj.cpp  **** 		sig = delay.ProcessSample(sig);
+  38:testproj.cpp  **** 		out[0][i] = sig;
+  39:testproj.cpp  **** 		out[1][i] = sig;
+  40:testproj.cpp  **** 		
+  41:testproj.cpp  **** 	}
+  42:testproj.cpp  **** }
+  43:testproj.cpp  **** 
+  44:testproj.cpp  **** int main(void)
+  45:testproj.cpp  **** {
+  46:testproj.cpp  **** 	hw.Init();
+  47:testproj.cpp  **** 	hw.SetAudioBlockSize(4); // number of samples handled per callback
+  48:testproj.cpp  **** 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
   49:testproj.cpp  **** 
-  50:testproj.cpp  **** int main(void)
-  51:testproj.cpp  **** {
-  52:testproj.cpp  **** 	hw.Init();
-  53:testproj.cpp  **** 	hw.SetAudioBlockSize(4); // number of samples handled per callback
-  54:testproj.cpp  **** 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
-  55:testproj.cpp  **** 	hw.StartAudio(AudioCallback);
+  50:testproj.cpp  **** 	InitializeADC();
+  51:testproj.cpp  **** 
+  52:testproj.cpp  **** 	hw.StartAudio(AudioCallback);
+  53:testproj.cpp  **** 
+  54:testproj.cpp  **** 	while(1) {}
+  55:testproj.cpp  **** }
   56:testproj.cpp  **** 
-  57:testproj.cpp  **** 	InitializeADC();
-  58:testproj.cpp  **** 
-  59:testproj.cpp  **** 	float sampleRate = hw.AudioSampleRate();
-  60:testproj.cpp  **** 
-  61:testproj.cpp  **** 	chorus.Init(sampleRate);
-  62:testproj.cpp  **** 	tremolo.Init(sampleRate);
-  63:testproj.cpp  **** 	tremolo.SetFreq(5);
-  64:testproj.cpp  **** 
-  65:testproj.cpp  **** 	while(1) {}
-  66:testproj.cpp  **** }
-  67:testproj.cpp  **** 
-  68:testproj.cpp  **** void InitializeADC() {
-  69:testproj.cpp  **** 	AdcChannelConfig adcChannelConfig[NUM_ADC_CHANNELS];
-  70:testproj.cpp  **** 	adcChannelConfig[KnobOne].InitSingle(POT1);
-  71:testproj.cpp  **** 	adcChannelConfig[KnobTwo].InitSingle(POT2);
-  72:testproj.cpp  **** 
-  73:testproj.cpp  **** 	hw.adc.Init(adcChannelConfig, NUM_ADC_CHANNELS);
-  74:testproj.cpp  **** 	hw.adc.Start();
-  75:testproj.cpp  **** }
-  76:testproj.cpp  **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 46
+  57:testproj.cpp  **** void InitializeADC() {
+ 191              		.loc 11 57 22 is_stmt 1 view -0
+ 192              		.cfi_startproc
+ 193              		@ args = 0, pretend = 0, frame = 48
+ 194              		@ frame_needed = 0, uses_anonymous_args = 0
+  58:testproj.cpp  **** 	AdcChannelConfig adcChannelConfig[NUM_ADC_CHANNELS];
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 42
 
 
-  77:testproj.cpp  **** void ProcessADC() {
- 256              		.loc 14 77 6 view .LVU42
- 257              	.LBB196:
-  78:testproj.cpp  **** 	x = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
- 258              		.loc 14 78 2 view .LVU43
- 259              	.LBE196:
- 260              	.LBE195:
-  29:testproj.cpp  **** 	float sig;
- 261              		.loc 14 29 1 is_stmt 0 view .LVU44
- 262 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
- 263              		.cfi_def_cfa_offset 24
- 264              		.cfi_offset 4, -24
- 265              		.cfi_offset 5, -20
- 266              		.cfi_offset 6, -16
- 267              		.cfi_offset 7, -12
- 268              		.cfi_offset 8, -8
- 269              		.cfi_offset 14, -4
-  29:testproj.cpp  **** 	float sig;
- 270              		.loc 14 29 1 view .LVU45
- 271 0004 0646     		mov	r6, r0
- 272 0006 0F46     		mov	r7, r1
- 273              	.LBB199:
- 274              	.LBB197:
- 275              		.loc 14 78 21 view .LVU46
- 276 0008 1B48     		ldr	r0, .L19
- 277              	.LVL9:
- 278              		.loc 14 78 21 view .LVU47
- 279 000a 0021     		movs	r1, #0
- 280              	.LVL10:
- 281              		.loc 14 78 21 view .LVU48
- 282              	.LBE197:
- 283              	.LBE199:
-  29:testproj.cpp  **** 	float sig;
- 284              		.loc 14 29 1 view .LVU49
- 285 000c 1546     		mov	r5, r2
- 286              	.LBB200:
- 287              	.LBB198:
- 288              		.loc 14 78 21 view .LVU50
- 289 000e FFF7FEFF 		bl	_ZNK5daisy9AdcHandle8GetFloatEh
- 290              	.LVL11:
- 291              		.loc 14 78 42 view .LVU51
- 292 0012 9FED1A7A 		vldr.32	s14, .L19+4
-  79:testproj.cpp  **** 	y = hw.adc.GetFloat(KnobTwo) * 10.0f; 
- 293              		.loc 14 79 21 view .LVU52
- 294 0016 0121     		movs	r1, #1
-  78:testproj.cpp  **** 	x = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
- 295              		.loc 14 78 42 view .LVU53
- 296 0018 DFED197A 		vldr.32	s15, .L19+8
-  78:testproj.cpp  **** 	x = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
- 297              		.loc 14 78 4 view .LVU54
- 298 001c 194B     		ldr	r3, .L19+12
-  78:testproj.cpp  **** 	x = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
- 299              		.loc 14 78 42 view .LVU55
- 300 001e E0EE077A 		vfma.f32	s15, s0, s14
- 301              		.loc 14 79 21 view .LVU56
- 302 0022 1548     		ldr	r0, .L19
-  78:testproj.cpp  **** 	x = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 47
+ 195              		.loc 11 58 2 view .LVU34
+  59:testproj.cpp  **** 	adcChannelConfig[KnobOne].InitSingle(POT1);
+ 196              		.loc 11 59 2 view .LVU35
+  57:testproj.cpp  **** 	AdcChannelConfig adcChannelConfig[NUM_ADC_CHANNELS];
+ 197              		.loc 11 57 22 is_stmt 0 view .LVU36
+ 198 0000 30B5     		push	{r4, r5, lr}
+ 199              		.cfi_def_cfa_offset 12
+ 200              		.cfi_offset 4, -12
+ 201              		.cfi_offset 5, -8
+ 202              		.cfi_offset 14, -4
+ 203              		.loc 11 59 38 view .LVU37
+ 204 0002 0224     		movs	r4, #2
+  57:testproj.cpp  **** 	AdcChannelConfig adcChannelConfig[NUM_ADC_CHANNELS];
+ 205              		.loc 11 57 22 view .LVU38
+ 206 0004 8DB0     		sub	sp, sp, #52
+ 207              		.cfi_def_cfa_offset 64
+ 208              		.loc 11 59 38 view .LVU39
+ 209 0006 0025     		movs	r5, #0
+ 210 0008 8DF80440 		strb	r4, [sp, #4]
+ 211 000c 2246     		mov	r2, r4
+ 212 000e 8DF80550 		strb	r5, [sp, #5]
+ 213 0012 03A8     		add	r0, sp, #12
+ 214 0014 0199     		ldr	r1, [sp, #4]
+ 215 0016 FFF7FEFF 		bl	_ZN5daisy16AdcChannelConfig10InitSingleE12dsy_gpio_pinNS0_15ConversionSpeedE
+ 216              	.LVL6:
+  60:testproj.cpp  **** 	adcChannelConfig[KnobTwo].InitSingle(POT2);
+ 217              		.loc 11 60 2 is_stmt 1 view .LVU40
+ 218              		.loc 11 60 38 is_stmt 0 view .LVU41
+ 219 001a 0323     		movs	r3, #3
+ 220 001c 8DF80850 		strb	r5, [sp, #8]
+ 221 0020 2246     		mov	r2, r4
+ 222 0022 8DF80930 		strb	r3, [sp, #9]
+ 223 0026 0DF11E00 		add	r0, sp, #30
+  61:testproj.cpp  **** 
+  62:testproj.cpp  **** 	hw.adc.Init(adcChannelConfig, NUM_ADC_CHANNELS);
+ 224              		.loc 11 62 13 view .LVU42
+ 225 002a 074D     		ldr	r5, .L11
+  60:testproj.cpp  **** 	adcChannelConfig[KnobTwo].InitSingle(POT2);
+ 226              		.loc 11 60 38 view .LVU43
+ 227 002c 0299     		ldr	r1, [sp, #8]
+ 228 002e FFF7FEFF 		bl	_ZN5daisy16AdcChannelConfig10InitSingleE12dsy_gpio_pinNS0_15ConversionSpeedE
+ 229              	.LVL7:
+ 230              		.loc 11 62 2 is_stmt 1 view .LVU44
+ 231              		.loc 11 62 13 is_stmt 0 view .LVU45
+ 232 0032 0423     		movs	r3, #4
+ 233 0034 2246     		mov	r2, r4
+ 234 0036 03A9     		add	r1, sp, #12
+ 235 0038 2846     		mov	r0, r5
+ 236 003a FFF7FEFF 		bl	_ZN5daisy9AdcHandle4InitEPNS_16AdcChannelConfigEjNS0_12OverSamplingE
+ 237              	.LVL8:
+  63:testproj.cpp  **** 	hw.adc.Start();
+ 238              		.loc 11 63 2 is_stmt 1 view .LVU46
+ 239              		.loc 11 63 14 is_stmt 0 view .LVU47
+ 240 003e 2846     		mov	r0, r5
+ 241 0040 FFF7FEFF 		bl	_ZN5daisy9AdcHandle5StartEv
+ 242              	.LVL9:
+  64:testproj.cpp  **** }
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 43
 
 
- 303              		.loc 14 78 4 view .LVU57
- 304 0024 C3ED007A 		vstr.32	s15, [r3]
- 305              		.loc 14 79 2 is_stmt 1 view .LVU58
- 306              		.loc 14 79 21 is_stmt 0 view .LVU59
- 307 0028 FFF7FEFF 		bl	_ZNK5daisy9AdcHandle8GetFloatEh
- 308              	.LVL12:
- 309              		.loc 14 79 31 view .LVU60
- 310 002c F2EE047A 		vmov.f32	s15, #1.0e+1
- 311              		.loc 14 79 4 view .LVU61
- 312 0030 154B     		ldr	r3, .L19+16
- 313              		.loc 14 79 31 view .LVU62
- 314 0032 20EE270A 		vmul.f32	s0, s0, s15
- 315              		.loc 14 79 4 view .LVU63
- 316 0036 83ED000A 		vstr.32	s0, [r3]
- 317              	.LVL13:
- 318              		.loc 14 79 4 view .LVU64
- 319              	.LBE198:
- 320              	.LBE200:
- 321              	.LBB201:
-  37:testproj.cpp  **** 	{
- 322              		.loc 14 37 23 is_stmt 1 view .LVU65
- 323 003a D5B1     		cbz	r5, .L11
-  37:testproj.cpp  **** 	{
- 324              		.loc 14 37 14 is_stmt 0 view .LVU66
- 325 003c 0024     		movs	r4, #0
- 326              	.LVL14:
- 327              	.L13:
-  40:testproj.cpp  **** 		//sig = tremolo.Process(sig);
- 328              		.loc 14 40 3 is_stmt 1 discriminator 2 view .LVU67
-  40:testproj.cpp  **** 		//sig = tremolo.Process(sig);
- 329              		.loc 14 40 16 is_stmt 0 discriminator 2 view .LVU68
- 330 003e 7268     		ldr	r2, [r6, #4]
-  40:testproj.cpp  **** 		//sig = tremolo.Process(sig);
- 331              		.loc 14 40 7 discriminator 2 view .LVU69
- 332 0040 F2EE047A 		vmov.f32	s15, #1.0e+1
-  43:testproj.cpp  **** 		out[0][i] = sig;
- 333              		.loc 14 43 28 discriminator 2 view .LVU70
- 334 0044 1148     		ldr	r0, .L19+20
- 335 0046 4FEA8408 		lsl	r8, r4, #2
-  40:testproj.cpp  **** 		//sig = tremolo.Process(sig);
- 336              		.loc 14 40 16 discriminator 2 view .LVU71
- 337 004a 02EB8402 		add	r2, r2, r4, lsl #2
-  37:testproj.cpp  **** 	{
- 338              		.loc 14 37 2 discriminator 2 view .LVU72
- 339 004e 0134     		adds	r4, r4, #1
- 340              	.LVL15:
-  40:testproj.cpp  **** 		//sig = tremolo.Process(sig);
- 341              		.loc 14 40 7 discriminator 2 view .LVU73
- 342 0050 92ED000A 		vldr.32	s0, [r2]
- 343              	.LVL16:
-  43:testproj.cpp  **** 		out[0][i] = sig;
- 344              		.loc 14 43 3 is_stmt 1 discriminator 2 view .LVU74
-  43:testproj.cpp  **** 		out[0][i] = sig;
- 345              		.loc 14 43 28 is_stmt 0 discriminator 2 view .LVU75
- 346 0054 20EE270A 		vmul.f32	s0, s0, s15
- 347              	.LVL17:
-  43:testproj.cpp  **** 		out[0][i] = sig;
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 48
-
-
- 348              		.loc 14 43 28 discriminator 2 view .LVU76
- 349 0058 FFF7FEFF 		bl	_ZN5Delay13ProcessSampleEf
- 350              	.LVL18:
-  37:testproj.cpp  **** 	{
- 351              		.loc 14 37 23 discriminator 2 view .LVU77
- 352 005c A542     		cmp	r5, r4
-  44:testproj.cpp  **** 		out[1][i] = sig;
- 353              		.loc 14 44 13 discriminator 2 view .LVU78
- 354 005e D7E90023 		ldrd	r2, r3, [r7]
- 355 0062 02EB080C 		add	ip, r2, r8
-  45:testproj.cpp  **** 		
- 356              		.loc 14 45 13 discriminator 2 view .LVU79
- 357 0066 4344     		add	r3, r3, r8
-  44:testproj.cpp  **** 		out[1][i] = sig;
- 358              		.loc 14 44 13 discriminator 2 view .LVU80
- 359 0068 8CED000A 		vstr.32	s0, [ip]
-  45:testproj.cpp  **** 		
- 360              		.loc 14 45 3 is_stmt 1 discriminator 2 view .LVU81
-  45:testproj.cpp  **** 		
- 361              		.loc 14 45 13 is_stmt 0 discriminator 2 view .LVU82
- 362 006c 83ED000A 		vstr.32	s0, [r3]
-  37:testproj.cpp  **** 	{
- 363              		.loc 14 37 2 is_stmt 1 discriminator 2 view .LVU83
- 364              	.LVL19:
-  37:testproj.cpp  **** 	{
- 365              		.loc 14 37 23 discriminator 2 view .LVU84
- 366 0070 E5D1     		bne	.L13
- 367              	.LVL20:
- 368              	.L11:
-  37:testproj.cpp  **** 	{
- 369              		.loc 14 37 23 is_stmt 0 discriminator 2 view .LVU85
- 370              	.LBE201:
+ 243              		.loc 11 64 1 view .LVU48
+ 244 0044 0DB0     		add	sp, sp, #52
+ 245              		.cfi_def_cfa_offset 12
+ 246              		@ sp needed
+ 247 0046 30BD     		pop	{r4, r5, pc}
+ 248              	.L12:
+ 249              		.align	2
+ 250              	.L11:
+ 251 0048 18000000 		.word	.LANCHOR0+24
+ 252              		.cfi_endproc
+ 253              	.LFE4686:
+ 255              		.section	.text.startup.main,"ax",%progbits
+ 256              		.align	1
+ 257              		.p2align 2,,3
+ 258              		.global	main
+ 259              		.syntax unified
+ 260              		.thumb
+ 261              		.thumb_func
+ 262              		.fpu fpv5-d16
+ 264              	main:
+ 265              	.LFB4685:
+  45:testproj.cpp  **** 	hw.Init();
+ 266              		.loc 11 45 1 is_stmt 1 view -0
+ 267              		.cfi_startproc
+ 268              		@ Volatile: function does not return.
+ 269              		@ args = 0, pretend = 0, frame = 0
+ 270              		@ frame_needed = 0, uses_anonymous_args = 0
+  46:testproj.cpp  **** 	hw.SetAudioBlockSize(4); // number of samples handled per callback
+ 271              		.loc 11 46 2 view .LVU50
+  45:testproj.cpp  **** 	hw.Init();
+ 272              		.loc 11 45 1 is_stmt 0 view .LVU51
+ 273 0000 08B5     		push	{r3, lr}
+ 274              		.cfi_def_cfa_offset 8
+ 275              		.cfi_offset 3, -8
+ 276              		.cfi_offset 14, -4
+  46:testproj.cpp  **** 	hw.SetAudioBlockSize(4); // number of samples handled per callback
+ 277              		.loc 11 46 9 view .LVU52
+ 278 0002 0021     		movs	r1, #0
+ 279 0004 0848     		ldr	r0, .L16
+ 280 0006 FFF7FEFF 		bl	_ZN5daisy9DaisySeed4InitEb
+ 281              	.LVL10:
+  47:testproj.cpp  **** 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
+ 282              		.loc 11 47 2 is_stmt 1 view .LVU53
+  47:testproj.cpp  **** 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
+ 283              		.loc 11 47 22 is_stmt 0 view .LVU54
+ 284 000a 0421     		movs	r1, #4
+ 285 000c 0648     		ldr	r0, .L16
+ 286 000e FFF7FEFF 		bl	_ZN5daisy9DaisySeed17SetAudioBlockSizeEj
+ 287              	.LVL11:
   48:testproj.cpp  **** 
- 371              		.loc 14 48 1 view .LVU86
- 372 0072 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
- 373              	.LVL21:
- 374              	.L20:
+ 288              		.loc 11 48 2 is_stmt 1 view .LVU55
   48:testproj.cpp  **** 
- 375              		.loc 14 48 1 view .LVU87
- 376 0076 00BF     		.align	2
- 377              	.L19:
- 378 0078 18000000 		.word	.LANCHOR0+24
- 379 007c 000A1B47 		.word	1192954368
- 380 0080 00D08945 		.word	1166659584
- 381 0084 00000000 		.word	.LANCHOR1
- 382 0088 00000000 		.word	.LANCHOR2
- 383 008c 00000000 		.word	.LANCHOR3
- 384              		.cfi_endproc
- 385              	.LFE4684:
- 387              		.section	.text._Z13InitializeADCv,"ax",%progbits
- 388              		.align	1
- 389              		.p2align 2,,3
- 390              		.global	_Z13InitializeADCv
- 391              		.syntax unified
- 392              		.thumb
- 393              		.thumb_func
- 394              		.fpu fpv5-d16
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 49
+ 289              		.loc 11 48 23 is_stmt 0 view .LVU56
+ 290 0012 0321     		movs	r1, #3
+ 291 0014 0448     		ldr	r0, .L16
+ 292 0016 FFF7FEFF 		bl	_ZN5daisy9DaisySeed18SetAudioSampleRateENS_9SaiHandle6Config10SampleRateE
+ 293              	.LVL12:
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 44
 
 
- 396              	_Z13InitializeADCv:
- 397              	.LFB4686:
-  68:testproj.cpp  **** 	AdcChannelConfig adcChannelConfig[NUM_ADC_CHANNELS];
- 398              		.loc 14 68 22 is_stmt 1 view -0
- 399              		.cfi_startproc
- 400              		@ args = 0, pretend = 0, frame = 48
- 401              		@ frame_needed = 0, uses_anonymous_args = 0
-  69:testproj.cpp  **** 	adcChannelConfig[KnobOne].InitSingle(POT1);
- 402              		.loc 14 69 2 view .LVU89
-  70:testproj.cpp  **** 	adcChannelConfig[KnobTwo].InitSingle(POT2);
- 403              		.loc 14 70 2 view .LVU90
-  68:testproj.cpp  **** 	AdcChannelConfig adcChannelConfig[NUM_ADC_CHANNELS];
- 404              		.loc 14 68 22 is_stmt 0 view .LVU91
- 405 0000 30B5     		push	{r4, r5, lr}
- 406              		.cfi_def_cfa_offset 12
- 407              		.cfi_offset 4, -12
- 408              		.cfi_offset 5, -8
- 409              		.cfi_offset 14, -4
-  70:testproj.cpp  **** 	adcChannelConfig[KnobTwo].InitSingle(POT2);
- 410              		.loc 14 70 38 view .LVU92
- 411 0002 0224     		movs	r4, #2
-  68:testproj.cpp  **** 	AdcChannelConfig adcChannelConfig[NUM_ADC_CHANNELS];
- 412              		.loc 14 68 22 view .LVU93
- 413 0004 8DB0     		sub	sp, sp, #52
- 414              		.cfi_def_cfa_offset 64
-  70:testproj.cpp  **** 	adcChannelConfig[KnobTwo].InitSingle(POT2);
- 415              		.loc 14 70 38 view .LVU94
- 416 0006 0025     		movs	r5, #0
- 417 0008 8DF80440 		strb	r4, [sp, #4]
- 418 000c 2246     		mov	r2, r4
- 419 000e 8DF80550 		strb	r5, [sp, #5]
- 420 0012 03A8     		add	r0, sp, #12
- 421 0014 0199     		ldr	r1, [sp, #4]
- 422 0016 FFF7FEFF 		bl	_ZN5daisy16AdcChannelConfig10InitSingleE12dsy_gpio_pinNS0_15ConversionSpeedE
- 423              	.LVL22:
-  71:testproj.cpp  **** 
- 424              		.loc 14 71 2 is_stmt 1 view .LVU95
-  71:testproj.cpp  **** 
- 425              		.loc 14 71 38 is_stmt 0 view .LVU96
- 426 001a 0323     		movs	r3, #3
- 427 001c 8DF80850 		strb	r5, [sp, #8]
- 428 0020 2246     		mov	r2, r4
- 429 0022 8DF80930 		strb	r3, [sp, #9]
- 430 0026 0DF11E00 		add	r0, sp, #30
-  73:testproj.cpp  **** 	hw.adc.Start();
- 431              		.loc 14 73 13 view .LVU97
- 432 002a 074D     		ldr	r5, .L23
-  71:testproj.cpp  **** 
- 433              		.loc 14 71 38 view .LVU98
- 434 002c 0299     		ldr	r1, [sp, #8]
- 435 002e FFF7FEFF 		bl	_ZN5daisy16AdcChannelConfig10InitSingleE12dsy_gpio_pinNS0_15ConversionSpeedE
- 436              	.LVL23:
-  73:testproj.cpp  **** 	hw.adc.Start();
- 437              		.loc 14 73 2 is_stmt 1 view .LVU99
-  73:testproj.cpp  **** 	hw.adc.Start();
- 438              		.loc 14 73 13 is_stmt 0 view .LVU100
- 439 0032 0423     		movs	r3, #4
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 50
+  50:testproj.cpp  **** 
+ 294              		.loc 11 50 2 is_stmt 1 view .LVU57
+  50:testproj.cpp  **** 
+ 295              		.loc 11 50 15 is_stmt 0 view .LVU58
+ 296 001a FFF7FEFF 		bl	_Z13InitializeADCv
+ 297              	.LVL13:
+  52:testproj.cpp  **** 
+ 298              		.loc 11 52 2 is_stmt 1 view .LVU59
+  52:testproj.cpp  **** 
+ 299              		.loc 11 52 15 is_stmt 0 view .LVU60
+ 300 001e 0349     		ldr	r1, .L16+4
+ 301 0020 0148     		ldr	r0, .L16
+ 302 0022 FFF7FEFF 		bl	_ZN5daisy9DaisySeed10StartAudioEPFvPKPKfPPfjE
+ 303              	.LVL14:
+ 304              	.L14:
+  54:testproj.cpp  **** }
+ 305              		.loc 11 54 2 is_stmt 1 discriminator 1 view .LVU61
+  54:testproj.cpp  **** }
+ 306              		.loc 11 54 2 discriminator 1 view .LVU62
+  54:testproj.cpp  **** }
+ 307              		.loc 11 54 2 discriminator 1 view .LVU63
+  54:testproj.cpp  **** }
+ 308              		.loc 11 54 2 discriminator 1 view .LVU64
+ 309 0026 FEE7     		b	.L14
+ 310              	.L17:
+ 311              		.align	2
+ 312              	.L16:
+ 313 0028 00000000 		.word	.LANCHOR0
+ 314 002c 00000000 		.word	_Z13AudioCallbackPKPKfPPfj
+ 315              		.cfi_endproc
+ 316              	.LFE4685:
+ 318              		.section	.text._Z10ProcessADCv,"ax",%progbits
+ 319              		.align	1
+ 320              		.p2align 2,,3
+ 321              		.global	_Z10ProcessADCv
+ 322              		.syntax unified
+ 323              		.thumb
+ 324              		.thumb_func
+ 325              		.fpu fpv5-d16
+ 327              	_Z10ProcessADCv:
+ 328              	.LFB4687:
+  65:testproj.cpp  **** 
+  66:testproj.cpp  **** void ProcessADC() {
+ 329              		.loc 11 66 19 view -0
+ 330              		.cfi_startproc
+ 331              		@ args = 0, pretend = 0, frame = 0
+ 332              		@ frame_needed = 0, uses_anonymous_args = 0
+  67:testproj.cpp  **** 	float targetX = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
+ 333              		.loc 11 67 2 view .LVU66
+  66:testproj.cpp  **** 	float targetX = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
+ 334              		.loc 11 66 19 is_stmt 0 view .LVU67
+ 335 0000 08B5     		push	{r3, lr}
+ 336              		.cfi_def_cfa_offset 8
+ 337              		.cfi_offset 3, -8
+ 338              		.cfi_offset 14, -4
+ 339              		.loc 11 67 33 view .LVU68
+ 340 0002 1548     		ldr	r0, .L20
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 45
 
 
- 440 0034 2246     		mov	r2, r4
- 441 0036 03A9     		add	r1, sp, #12
- 442 0038 2846     		mov	r0, r5
- 443 003a FFF7FEFF 		bl	_ZN5daisy9AdcHandle4InitEPNS_16AdcChannelConfigEjNS0_12OverSamplingE
- 444              	.LVL24:
-  74:testproj.cpp  **** }
- 445              		.loc 14 74 2 is_stmt 1 view .LVU101
-  74:testproj.cpp  **** }
- 446              		.loc 14 74 14 is_stmt 0 view .LVU102
- 447 003e 2846     		mov	r0, r5
- 448 0040 FFF7FEFF 		bl	_ZN5daisy9AdcHandle5StartEv
- 449              	.LVL25:
-  75:testproj.cpp  **** 
- 450              		.loc 14 75 1 view .LVU103
- 451 0044 0DB0     		add	sp, sp, #52
- 452              		.cfi_def_cfa_offset 12
- 453              		@ sp needed
- 454 0046 30BD     		pop	{r4, r5, pc}
- 455              	.L24:
- 456              		.align	2
- 457              	.L23:
- 458 0048 18000000 		.word	.LANCHOR0+24
- 459              		.cfi_endproc
- 460              	.LFE4686:
- 462              		.section	.text.startup.main,"ax",%progbits
- 463              		.align	1
- 464              		.p2align 2,,3
- 465              		.global	main
- 466              		.syntax unified
- 467              		.thumb
- 468              		.thumb_func
- 469              		.fpu fpv5-d16
- 471              	main:
- 472              	.LFB4685:
-  51:testproj.cpp  **** 	hw.Init();
- 473              		.loc 14 51 1 is_stmt 1 view -0
- 474              		.cfi_startproc
- 475              		@ args = 0, pretend = 0, frame = 0
- 476              		@ frame_needed = 0, uses_anonymous_args = 0
-  52:testproj.cpp  **** 	hw.SetAudioBlockSize(4); // number of samples handled per callback
- 477              		.loc 14 52 2 view .LVU105
-  51:testproj.cpp  **** 	hw.Init();
- 478              		.loc 14 51 1 is_stmt 0 view .LVU106
- 479 0000 08B5     		push	{r3, lr}
- 480              		.cfi_def_cfa_offset 8
- 481              		.cfi_offset 3, -8
- 482              		.cfi_offset 14, -4
-  52:testproj.cpp  **** 	hw.SetAudioBlockSize(4); // number of samples handled per callback
- 483              		.loc 14 52 9 view .LVU107
- 484 0002 0021     		movs	r1, #0
- 485 0004 1248     		ldr	r0, .L28
-  51:testproj.cpp  **** 	hw.Init();
- 486              		.loc 14 51 1 view .LVU108
- 487 0006 2DED028B 		vpush.64	{d8}
- 488              		.cfi_def_cfa_offset 16
- 489              		.cfi_offset 80, -16
- 490              		.cfi_offset 81, -12
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 51
+ 341 0004 0021     		movs	r1, #0
+  66:testproj.cpp  **** 	float targetX = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
+ 342              		.loc 11 66 19 view .LVU69
+ 343 0006 2DED028B 		vpush.64	{d8}
+ 344              		.cfi_def_cfa_offset 16
+ 345              		.cfi_offset 80, -16
+ 346              		.cfi_offset 81, -12
+ 347              		.loc 11 67 33 view .LVU70
+ 348 000a FFF7FEFF 		bl	_ZNK5daisy9AdcHandle8GetFloatEh
+ 349              	.LVL15:
+ 350              		.loc 11 67 56 view .LVU71
+ 351 000e 9FED138A 		vldr.32	s16, .L20+4
+ 352 0012 DFED137A 		vldr.32	s15, .L20+8
+  68:testproj.cpp  **** 	float targetY = hw.adc.GetFloat(KnobTwo) * 0.95f; 
+ 353              		.loc 11 68 33 view .LVU72
+ 354 0016 0121     		movs	r1, #1
+ 355 0018 0F48     		ldr	r0, .L20
+  67:testproj.cpp  **** 	float targetX = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
+ 356              		.loc 11 67 56 view .LVU73
+ 357 001a A0EE278A 		vfma.f32	s16, s0, s15
+ 358              	.LVL16:
+ 359              		.loc 11 68 2 is_stmt 1 view .LVU74
+ 360              		.loc 11 68 33 is_stmt 0 view .LVU75
+ 361 001e FFF7FEFF 		bl	_ZNK5daisy9AdcHandle8GetFloatEh
+ 362              	.LVL17:
+  69:testproj.cpp  **** 
+  70:testproj.cpp  **** 	x += 0.002f * (targetX - x);
+ 363              		.loc 11 70 2 is_stmt 1 view .LVU76
+  71:testproj.cpp  **** 	y += 0.002f * (targetY - y);
+ 364              		.loc 11 71 25 is_stmt 0 view .LVU77
+ 365 0022 104B     		ldr	r3, .L20+12
+ 366 0024 DFED105A 		vldr.32	s11, .L20+16
+ 367 0028 D3ED007A 		vldr.32	s15, [r3]
+  70:testproj.cpp  **** 	y += 0.002f * (targetY - y);
+ 368              		.loc 11 70 25 view .LVU78
+ 369 002c 0F4A     		ldr	r2, .L20+20
+ 370              		.loc 11 71 25 view .LVU79
+ 371 002e B0EE676A 		vmov.f32	s12, s15
+  70:testproj.cpp  **** 	y += 0.002f * (targetY - y);
+ 372              		.loc 11 70 4 view .LVU80
+ 373 0032 DFED0F6A 		vldr.32	s13, .L20+24
+  70:testproj.cpp  **** 	y += 0.002f * (targetY - y);
+ 374              		.loc 11 70 25 view .LVU81
+ 375 0036 92ED007A 		vldr.32	s14, [r2]
+ 376              		.loc 11 71 25 view .LVU82
+ 377 003a 90EE256A 		vfnms.f32	s12, s0, s11
+  70:testproj.cpp  **** 	y += 0.002f * (targetY - y);
+ 378              		.loc 11 70 25 view .LVU83
+ 379 003e 38EE478A 		vsub.f32	s16, s16, s14
+ 380              	.LVL18:
+  70:testproj.cpp  **** 	y += 0.002f * (targetY - y);
+ 381              		.loc 11 70 4 view .LVU84
+ 382 0042 A8EE267A 		vfma.f32	s14, s16, s13
+ 383              		.loc 11 71 4 view .LVU85
+ 384 0046 E6EE267A 		vfma.f32	s15, s12, s13
+  72:testproj.cpp  **** }
+ 385              		.loc 11 72 1 view .LVU86
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 46
 
 
-  52:testproj.cpp  **** 	hw.SetAudioBlockSize(4); // number of samples handled per callback
- 491              		.loc 14 52 9 view .LVU109
- 492 000a FFF7FEFF 		bl	_ZN5daisy9DaisySeed4InitEb
- 493              	.LVL26:
-  53:testproj.cpp  **** 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
- 494              		.loc 14 53 2 is_stmt 1 view .LVU110
-  53:testproj.cpp  **** 	hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
- 495              		.loc 14 53 22 is_stmt 0 view .LVU111
- 496 000e 0421     		movs	r1, #4
- 497 0010 0F48     		ldr	r0, .L28
- 498 0012 FFF7FEFF 		bl	_ZN5daisy9DaisySeed17SetAudioBlockSizeEj
- 499              	.LVL27:
-  54:testproj.cpp  **** 	hw.StartAudio(AudioCallback);
- 500              		.loc 14 54 2 is_stmt 1 view .LVU112
-  54:testproj.cpp  **** 	hw.StartAudio(AudioCallback);
- 501              		.loc 14 54 23 is_stmt 0 view .LVU113
- 502 0016 0321     		movs	r1, #3
- 503 0018 0D48     		ldr	r0, .L28
- 504 001a FFF7FEFF 		bl	_ZN5daisy9DaisySeed18SetAudioSampleRateENS_9SaiHandle6Config10SampleRateE
+ 386 004a BDEC028B 		vldm	sp!, {d8}
+ 387              		.cfi_restore 80
+ 388              		.cfi_restore 81
+ 389              		.cfi_def_cfa_offset 8
+  70:testproj.cpp  **** 	y += 0.002f * (targetY - y);
+ 390              		.loc 11 70 4 view .LVU87
+ 391 004e 82ED007A 		vstr.32	s14, [r2]
+  71:testproj.cpp  **** 	y += 0.002f * (targetY - y);
+ 392              		.loc 11 71 2 is_stmt 1 view .LVU88
+  71:testproj.cpp  **** 	y += 0.002f * (targetY - y);
+ 393              		.loc 11 71 4 is_stmt 0 view .LVU89
+ 394 0052 C3ED007A 		vstr.32	s15, [r3]
+ 395              		.loc 11 72 1 view .LVU90
+ 396 0056 08BD     		pop	{r3, pc}
+ 397              	.L21:
+ 398              		.align	2
+ 399              	.L20:
+ 400 0058 18000000 		.word	.LANCHOR0+24
+ 401 005c 00D08945 		.word	1166659584
+ 402 0060 000A1B47 		.word	1192954368
+ 403 0064 00000000 		.word	.LANCHOR2
+ 404 0068 3333733F 		.word	1064514355
+ 405 006c 00000000 		.word	.LANCHOR1
+ 406 0070 6F12033B 		.word	990057071
+ 407              		.cfi_endproc
+ 408              	.LFE4687:
+ 410              		.section	.text._Z13AudioCallbackPKPKfPPfj,"ax",%progbits
+ 411              		.align	1
+ 412              		.p2align 2,,3
+ 413              		.global	_Z13AudioCallbackPKPKfPPfj
+ 414              		.syntax unified
+ 415              		.thumb
+ 416              		.thumb_func
+ 417              		.fpu fpv5-d16
+ 419              	_Z13AudioCallbackPKPKfPPfj:
+ 420              	.LVL19:
+ 421              	.LFB4684:
+  29:testproj.cpp  **** 	ProcessADC();
+ 422              		.loc 11 29 1 is_stmt 1 view -0
+ 423              		.cfi_startproc
+ 424              		@ args = 0, pretend = 0, frame = 0
+ 425              		@ frame_needed = 0, uses_anonymous_args = 0
+  30:testproj.cpp  **** 	delay.setDelaySize(x);
+ 426              		.loc 11 30 2 view .LVU92
+  29:testproj.cpp  **** 	ProcessADC();
+ 427              		.loc 11 29 1 is_stmt 0 view .LVU93
+ 428 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
+ 429              		.cfi_def_cfa_offset 24
+ 430              		.cfi_offset 4, -24
+ 431              		.cfi_offset 5, -20
+ 432              		.cfi_offset 6, -16
+ 433              		.cfi_offset 7, -12
+ 434              		.cfi_offset 8, -8
+ 435              		.cfi_offset 14, -4
+  29:testproj.cpp  **** 	ProcessADC();
+ 436              		.loc 11 29 1 view .LVU94
+ 437 0004 1546     		mov	r5, r2
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 47
+
+
+ 438 0006 0646     		mov	r6, r0
+ 439 0008 8846     		mov	r8, r1
+  30:testproj.cpp  **** 	delay.setDelaySize(x);
+ 440              		.loc 11 30 12 view .LVU95
+ 441 000a FFF7FEFF 		bl	_Z10ProcessADCv
+ 442              	.LVL20:
+  31:testproj.cpp  **** 	delay.setFeedback(y);
+ 443              		.loc 11 31 2 is_stmt 1 view .LVU96
+  31:testproj.cpp  **** 	delay.setFeedback(y);
+ 444              		.loc 11 31 20 is_stmt 0 view .LVU97
+ 445 000e 124B     		ldr	r3, .L30
+ 446 0010 1248     		ldr	r0, .L30+4
+ 447 0012 93ED000A 		vldr.32	s0, [r3]
+ 448 0016 FFF7FEFF 		bl	_ZN5Delay12setDelaySizeEf
+ 449              	.LVL21:
+  32:testproj.cpp  **** 
+ 450              		.loc 11 32 2 is_stmt 1 view .LVU98
+  32:testproj.cpp  **** 
+ 451              		.loc 11 32 19 is_stmt 0 view .LVU99
+ 452 001a 114B     		ldr	r3, .L30+8
+ 453 001c 0F48     		ldr	r0, .L30+4
+ 454 001e 93ED000A 		vldr.32	s0, [r3]
+ 455 0022 FFF7FEFF 		bl	_ZN5Delay11setFeedbackEf
+ 456              	.LVL22:
+  34:testproj.cpp  **** 	{
+ 457              		.loc 11 34 2 is_stmt 1 view .LVU100
+ 458              	.LBB151:
+  34:testproj.cpp  **** 	{
+ 459              		.loc 11 34 23 view .LVU101
+ 460 0026 ADB1     		cbz	r5, .L22
+  34:testproj.cpp  **** 	{
+ 461              		.loc 11 34 14 is_stmt 0 view .LVU102
+ 462 0028 0024     		movs	r4, #0
+ 463              	.LVL23:
+ 464              	.L24:
+ 465              	.LBB152:
+  36:testproj.cpp  **** 		sig = delay.ProcessSample(sig);
+ 466              		.loc 11 36 3 is_stmt 1 discriminator 2 view .LVU103
+  36:testproj.cpp  **** 		sig = delay.ProcessSample(sig);
+ 467              		.loc 11 36 9 is_stmt 0 discriminator 2 view .LVU104
+ 468 002a 7268     		ldr	r2, [r6, #4]
+ 469 002c A700     		lsls	r7, r4, #2
+  37:testproj.cpp  **** 		out[0][i] = sig;
+ 470              		.loc 11 37 28 discriminator 2 view .LVU105
+ 471 002e 0B48     		ldr	r0, .L30+4
+  36:testproj.cpp  **** 		sig = delay.ProcessSample(sig);
+ 472              		.loc 11 36 9 discriminator 2 view .LVU106
+ 473 0030 02EB8402 		add	r2, r2, r4, lsl #2
+ 474              	.LVL24:
+  37:testproj.cpp  **** 		out[0][i] = sig;
+ 475              		.loc 11 37 3 is_stmt 1 discriminator 2 view .LVU107
+ 476              	.LBE152:
+  34:testproj.cpp  **** 	{
+ 477              		.loc 11 34 2 is_stmt 0 discriminator 2 view .LVU108
+ 478 0034 0134     		adds	r4, r4, #1
+ 479              	.LVL25:
+ 480              	.LBB153:
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 48
+
+
+  37:testproj.cpp  **** 		out[0][i] = sig;
+ 481              		.loc 11 37 28 discriminator 2 view .LVU109
+ 482 0036 92ED000A 		vldr.32	s0, [r2]
+ 483 003a FFF7FEFF 		bl	_ZN5Delay13ProcessSampleEf
+ 484              	.LVL26:
+  37:testproj.cpp  **** 		out[0][i] = sig;
+ 485              		.loc 11 37 28 discriminator 2 view .LVU110
+ 486              	.LBE153:
+  34:testproj.cpp  **** 	{
+ 487              		.loc 11 34 23 discriminator 2 view .LVU111
+ 488 003e A542     		cmp	r5, r4
+ 489              	.LBB154:
+  38:testproj.cpp  **** 		out[1][i] = sig;
+ 490              		.loc 11 38 13 discriminator 2 view .LVU112
+ 491 0040 D8E90023 		ldrd	r2, r3, [r8]
+ 492 0044 02EB070C 		add	ip, r2, r7
+  39:testproj.cpp  **** 		
+ 493              		.loc 11 39 13 discriminator 2 view .LVU113
+ 494 0048 3B44     		add	r3, r3, r7
+  38:testproj.cpp  **** 		out[1][i] = sig;
+ 495              		.loc 11 38 13 discriminator 2 view .LVU114
+ 496 004a 8CED000A 		vstr.32	s0, [ip]
+  39:testproj.cpp  **** 		
+ 497              		.loc 11 39 3 is_stmt 1 discriminator 2 view .LVU115
+  39:testproj.cpp  **** 		
+ 498              		.loc 11 39 13 is_stmt 0 discriminator 2 view .LVU116
+ 499 004e 83ED000A 		vstr.32	s0, [r3]
+ 500              	.LBE154:
+  34:testproj.cpp  **** 	{
+ 501              		.loc 11 34 2 is_stmt 1 discriminator 2 view .LVU117
+ 502              	.LVL27:
+  34:testproj.cpp  **** 	{
+ 503              		.loc 11 34 23 discriminator 2 view .LVU118
+ 504 0052 EAD1     		bne	.L24
  505              	.LVL28:
-  55:testproj.cpp  **** 
- 506              		.loc 14 55 2 is_stmt 1 view .LVU114
-  55:testproj.cpp  **** 
- 507              		.loc 14 55 15 is_stmt 0 view .LVU115
- 508 001e 0D49     		ldr	r1, .L28+4
- 509 0020 0B48     		ldr	r0, .L28
- 510 0022 FFF7FEFF 		bl	_ZN5daisy9DaisySeed10StartAudioEPFvPKPKfPPfjE
+ 506              	.L22:
+  34:testproj.cpp  **** 	{
+ 507              		.loc 11 34 23 is_stmt 0 discriminator 2 view .LVU119
+ 508              	.LBE151:
+  42:testproj.cpp  **** 
+ 509              		.loc 11 42 1 view .LVU120
+ 510 0054 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
  511              	.LVL29:
-  57:testproj.cpp  **** 
- 512              		.loc 14 57 2 is_stmt 1 view .LVU116
-  57:testproj.cpp  **** 
- 513              		.loc 14 57 15 is_stmt 0 view .LVU117
- 514 0026 FFF7FEFF 		bl	_Z13InitializeADCv
- 515              	.LVL30:
-  59:testproj.cpp  **** 
- 516              		.loc 14 59 2 is_stmt 1 view .LVU118
-  59:testproj.cpp  **** 
- 517              		.loc 14 59 39 is_stmt 0 view .LVU119
- 518 002a 0948     		ldr	r0, .L28
- 519 002c FFF7FEFF 		bl	_ZN5daisy9DaisySeed15AudioSampleRateEv
- 520              	.LVL31:
- 521 0030 B0EE408A 		vmov.f32	s16, s0
- 522              	.LVL32:
-  61:testproj.cpp  **** 	tremolo.Init(sampleRate);
- 523              		.loc 14 61 2 is_stmt 1 view .LVU120
-  61:testproj.cpp  **** 	tremolo.Init(sampleRate);
- 524              		.loc 14 61 13 is_stmt 0 view .LVU121
- 525 0034 0848     		ldr	r0, .L28+8
- 526 0036 FFF7FEFF 		bl	_ZN7daisysp6Chorus4InitEf
- 527              	.LVL33:
-  62:testproj.cpp  **** 	tremolo.SetFreq(5);
- 528              		.loc 14 62 2 is_stmt 1 view .LVU122
-  62:testproj.cpp  **** 	tremolo.SetFreq(5);
- 529              		.loc 14 62 14 is_stmt 0 view .LVU123
- 530 003a 0848     		ldr	r0, .L28+12
- 531 003c B0EE480A 		vmov.f32	s0, s16
- 532 0040 FFF7FEFF 		bl	_ZN7daisysp7Tremolo4InitEf
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 52
+ 512              	.L31:
+  42:testproj.cpp  **** 
+ 513              		.loc 11 42 1 view .LVU121
+ 514              		.align	2
+ 515              	.L30:
+ 516 0058 00000000 		.word	.LANCHOR1
+ 517 005c 00000000 		.word	.LANCHOR3
+ 518 0060 00000000 		.word	.LANCHOR2
+ 519              		.cfi_endproc
+ 520              	.LFE4684:
+ 522              		.section	.text.startup._GLOBAL__sub_I_hw,"ax",%progbits
+ 523              		.align	1
+ 524              		.p2align 2,,3
+ 525              		.syntax unified
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 49
 
 
- 533              	.LVL34:
-  63:testproj.cpp  **** 
- 534              		.loc 14 63 2 is_stmt 1 view .LVU124
-  63:testproj.cpp  **** 
- 535              		.loc 14 63 17 is_stmt 0 view .LVU125
- 536 0044 B1EE040A 		vmov.f32	s0, #5.0e+0
- 537 0048 0448     		ldr	r0, .L28+12
- 538 004a FFF7FEFF 		bl	_ZN7daisysp7Tremolo7SetFreqEf
- 539              	.LVL35:
- 540              	.L26:
-  65:testproj.cpp  **** }
- 541              		.loc 14 65 2 is_stmt 1 discriminator 1 view .LVU126
-  65:testproj.cpp  **** }
- 542              		.loc 14 65 2 discriminator 1 view .LVU127
-  65:testproj.cpp  **** }
- 543              		.loc 14 65 2 discriminator 1 view .LVU128
-  65:testproj.cpp  **** }
- 544              		.loc 14 65 2 discriminator 1 view .LVU129
- 545 004e FEE7     		b	.L26
- 546              	.L29:
- 547              		.align	2
- 548              	.L28:
- 549 0050 00000000 		.word	.LANCHOR0
- 550 0054 00000000 		.word	_Z13AudioCallbackPKPKfPPfj
- 551 0058 00000000 		.word	chorus
- 552 005c 00000000 		.word	.LANCHOR4
- 553              		.cfi_endproc
- 554              	.LFE4685:
- 556              		.section	.text._Z10ProcessADCv,"ax",%progbits
- 557              		.align	1
- 558              		.p2align 2,,3
- 559              		.global	_Z10ProcessADCv
- 560              		.syntax unified
- 561              		.thumb
- 562              		.thumb_func
- 563              		.fpu fpv5-d16
- 565              	_Z10ProcessADCv:
- 566              	.LFB4687:
-  77:testproj.cpp  **** 	x = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
- 567              		.loc 14 77 19 view -0
- 568              		.cfi_startproc
- 569              		@ args = 0, pretend = 0, frame = 0
- 570              		@ frame_needed = 0, uses_anonymous_args = 0
-  78:testproj.cpp  **** 	y = hw.adc.GetFloat(KnobTwo) * 10.0f; 
- 571              		.loc 14 78 2 view .LVU131
-  77:testproj.cpp  **** 	x = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
- 572              		.loc 14 77 19 is_stmt 0 view .LVU132
- 573 0000 08B5     		push	{r3, lr}
- 574              		.cfi_def_cfa_offset 8
- 575              		.cfi_offset 3, -8
- 576              		.cfi_offset 14, -4
-  78:testproj.cpp  **** 	y = hw.adc.GetFloat(KnobTwo) * 10.0f; 
- 577              		.loc 14 78 21 view .LVU133
- 578 0002 0C48     		ldr	r0, .L32
- 579 0004 0021     		movs	r1, #0
- 580 0006 FFF7FEFF 		bl	_ZNK5daisy9AdcHandle8GetFloatEh
- 581              	.LVL36:
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 53
-
-
-  78:testproj.cpp  **** 	y = hw.adc.GetFloat(KnobTwo) * 10.0f; 
- 582              		.loc 14 78 42 view .LVU134
- 583 000a 9FED0B7A 		vldr.32	s14, .L32+4
- 584 000e DFED0B7A 		vldr.32	s15, .L32+8
- 585              		.loc 14 79 21 view .LVU135
- 586 0012 0121     		movs	r1, #1
-  78:testproj.cpp  **** 	y = hw.adc.GetFloat(KnobTwo) * 10.0f; 
- 587              		.loc 14 78 4 view .LVU136
- 588 0014 0A4B     		ldr	r3, .L32+12
-  78:testproj.cpp  **** 	y = hw.adc.GetFloat(KnobTwo) * 10.0f; 
- 589              		.loc 14 78 42 view .LVU137
- 590 0016 E0EE077A 		vfma.f32	s15, s0, s14
- 591              		.loc 14 79 21 view .LVU138
- 592 001a 0648     		ldr	r0, .L32
-  78:testproj.cpp  **** 	y = hw.adc.GetFloat(KnobTwo) * 10.0f; 
- 593              		.loc 14 78 4 view .LVU139
- 594 001c C3ED007A 		vstr.32	s15, [r3]
- 595              		.loc 14 79 2 is_stmt 1 view .LVU140
- 596              		.loc 14 79 21 is_stmt 0 view .LVU141
- 597 0020 FFF7FEFF 		bl	_ZNK5daisy9AdcHandle8GetFloatEh
- 598              	.LVL37:
- 599              		.loc 14 79 31 view .LVU142
- 600 0024 F2EE047A 		vmov.f32	s15, #1.0e+1
- 601              		.loc 14 79 4 view .LVU143
- 602 0028 064B     		ldr	r3, .L32+16
- 603              		.loc 14 79 31 view .LVU144
- 604 002a 20EE270A 		vmul.f32	s0, s0, s15
- 605              		.loc 14 79 4 view .LVU145
- 606 002e 83ED000A 		vstr.32	s0, [r3]
-  80:testproj.cpp  **** }
- 607              		.loc 14 80 1 view .LVU146
- 608 0032 08BD     		pop	{r3, pc}
- 609              	.L33:
- 610              		.align	2
- 611              	.L32:
- 612 0034 18000000 		.word	.LANCHOR0+24
- 613 0038 000A1B47 		.word	1192954368
- 614 003c 00D08945 		.word	1166659584
- 615 0040 00000000 		.word	.LANCHOR1
- 616 0044 00000000 		.word	.LANCHOR2
- 617              		.cfi_endproc
- 618              	.LFE4687:
- 620              		.section	.text.startup._GLOBAL__sub_I_hw,"ax",%progbits
- 621              		.align	1
- 622              		.p2align 2,,3
- 623              		.syntax unified
- 624              		.thumb
- 625              		.thumb_func
- 626              		.fpu fpv5-d16
- 628              	_GLOBAL__sub_I_hw:
- 629              	.LFB5276:
- 630              		.loc 14 80 1 is_stmt 1 view -0
- 631              		.cfi_startproc
- 632              		@ args = 0, pretend = 0, frame = 0
- 633              		@ frame_needed = 0, uses_anonymous_args = 0
- 634              	.LBB231:
- 635              	.LBI231:
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 54
-
-
- 636              		.loc 14 80 1 view .LVU148
- 637              	.LVL38:
- 638              	.LBB232:
- 639              	.LBB233:
- 640              	.LBI233:
+ 526              		.thumb
+ 527              		.thumb_func
+ 528              		.fpu fpv5-d16
+ 530              	_GLOBAL__sub_I_hw:
+ 531              	.LFB5276:
+ 532              		.loc 11 72 1 is_stmt 1 view -0
+ 533              		.cfi_startproc
+ 534              		@ args = 0, pretend = 0, frame = 0
+ 535              		@ frame_needed = 0, uses_anonymous_args = 0
+ 536              	.LBB176:
+ 537              	.LBI176:
+ 538              		.loc 11 72 1 view .LVU123
+ 539              	.LVL30:
+ 540              	.LBB177:
+ 541              	.LBB178:
+ 542              	.LBI178:
   21:../libDaisy//src/daisy_seed.h ****     ~DaisySeed() {}
- 641              		.loc 1 21 5 view .LVU149
- 642              	.LBB234:
- 643              	.LBB235:
- 644              	.LBI235:
- 645              		.file 15 "../libDaisy//src/per/qspi.h"
+ 543              		.loc 1 21 5 view .LVU124
+ 544              	.LBB179:
+ 545              	.LBB180:
+ 546              	.LBI180:
+ 547              		.file 12 "../libDaisy//src/per/qspi.h"
    1:../libDaisy//src/per/qspi.h **** #ifndef DSY_QSPI
    2:../libDaisy//src/per/qspi.h **** #define DSY_QSPI /**< Macro */
    3:../libDaisy//src/per/qspi.h **** 
@@ -3227,6 +2938,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   33:../libDaisy//src/per/qspi.h ****     enum Result
   34:../libDaisy//src/per/qspi.h ****     {
   35:../libDaisy//src/per/qspi.h ****         OK = 0,
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 50
+
+
   36:../libDaisy//src/per/qspi.h ****         ERR
   37:../libDaisy//src/per/qspi.h ****     };
   38:../libDaisy//src/per/qspi.h **** 
@@ -3238,9 +2952,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   44:../libDaisy//src/per/qspi.h ****          *  \param E_HAL_ERROR - HAL code did not return HAL_OK.
   45:../libDaisy//src/per/qspi.h ****          *  \param E_SWITCHING_MODES - An error was encountered while switching QSPI peripheral mod
   46:../libDaisy//src/per/qspi.h ****          *  \param E_INVALID_MODE - QSPI should not be written to while the program is executing fr
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 55
-
-
   47:../libDaisy//src/per/qspi.h ****          */
   48:../libDaisy//src/per/qspi.h ****     enum Status
   49:../libDaisy//src/per/qspi.h ****     {
@@ -3287,6 +2998,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   90:../libDaisy//src/per/qspi.h ****         } pin_config;
   91:../libDaisy//src/per/qspi.h **** 
   92:../libDaisy//src/per/qspi.h ****         Device device;
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 51
+
+
   93:../libDaisy//src/per/qspi.h ****         Mode   mode;
   94:../libDaisy//src/per/qspi.h ****     };
   95:../libDaisy//src/per/qspi.h **** 
@@ -3298,9 +3012,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  101:../libDaisy//src/per/qspi.h ****     Result Init(const Config& config);
  102:../libDaisy//src/per/qspi.h **** 
  103:../libDaisy//src/per/qspi.h ****     /** Returns the current config. */
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 56
-
-
  104:../libDaisy//src/per/qspi.h ****     const Config& GetConfig() const;
  105:../libDaisy//src/per/qspi.h **** 
  106:../libDaisy//src/per/qspi.h ****     // Couldn't this just be called before anything else in init? That
@@ -3347,6 +3058,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  147:../libDaisy//src/per/qspi.h ****         \param address Address of sector to erase
  148:../libDaisy//src/per/qspi.h ****         \return Result::OK or Result::ERR
  149:../libDaisy//src/per/qspi.h ****         */
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 52
+
+
  150:../libDaisy//src/per/qspi.h ****     Result EraseSector(uint32_t address);
  151:../libDaisy//src/per/qspi.h **** 
  152:../libDaisy//src/per/qspi.h ****     /** Returns the current class status. Useful for debugging.
@@ -3358,79 +3072,76 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  158:../libDaisy//src/per/qspi.h ****      *  The memory at this address is read-only
  159:../libDaisy//src/per/qspi.h ****      *  to write to it use the Write function.
  160:../libDaisy//src/per/qspi.h ****      * 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 57
-
-
  161:../libDaisy//src/per/qspi.h ****      *  \param offset returns the pointer starting this 
  162:../libDaisy//src/per/qspi.h ****      *                many bytes into the memory
  163:../libDaisy//src/per/qspi.h ****     */
  164:../libDaisy//src/per/qspi.h ****     void* GetData(uint32_t offset = 0);
  165:../libDaisy//src/per/qspi.h **** 
  166:../libDaisy//src/per/qspi.h ****     QSPIHandle() : pimpl_(nullptr) {}
- 646              		.loc 15 166 5 view .LVU150
- 647              	.LBB236:
- 648              	.LBB237:
- 649              		.loc 15 166 34 is_stmt 0 view .LVU151
- 650 0000 0023     		movs	r3, #0
- 651 0002 1248     		ldr	r0, .L36
- 652              	.LBE237:
- 653              	.LBE236:
- 654              	.LBE235:
- 655              	.LBE234:
- 656              	.LBE233:
-  18:testproj.cpp  **** Chorus chorus;
- 657              		.loc 14 18 11 view .LVU152
- 658 0004 124A     		ldr	r2, .L36+4
- 659 0006 1349     		ldr	r1, .L36+8
- 660              	.LBE232:
- 661              	.LBE231:
- 662              		.loc 14 80 1 view .LVU153
- 663 0008 10B5     		push	{r4, lr}
- 664              		.cfi_def_cfa_offset 8
- 665              		.cfi_offset 4, -8
- 666              		.cfi_offset 14, -4
- 667              	.LBB262:
- 668              	.LBB259:
- 669              	.LBB254:
- 670              	.LBB253:
- 671              	.LBB240:
- 672              	.LBB239:
- 673              	.LBB238:
- 674              		.loc 15 166 34 view .LVU154
- 675 000a 0360     		str	r3, [r0]
- 676              	.LVL39:
- 677              		.loc 15 166 34 view .LVU155
- 678              	.LBE238:
- 679              	.LBE239:
- 680              	.LBE240:
- 681              	.LBB241:
- 682              	.LBI241:
+ 548              		.loc 12 166 5 view .LVU125
+ 549              	.LBB181:
+ 550              	.LBB182:
+ 551              		.loc 12 166 34 is_stmt 0 view .LVU126
+ 552 0000 0023     		movs	r3, #0
+ 553 0002 0E48     		ldr	r0, .L34
+ 554              	.LBE182:
+ 555              	.LBE181:
+ 556              	.LBE180:
+ 557              	.LBE179:
+ 558              	.LBE178:
+  20:testproj.cpp  **** Delay delay(48000.0f, 24000.0f, 0.5f, sampleRate);
+ 559              		.loc 11 20 11 view .LVU127
+ 560 0004 0E4A     		ldr	r2, .L34+4
+ 561 0006 0F49     		ldr	r1, .L34+8
+ 562              	.LBE177:
+ 563              	.LBE176:
+ 564              		.loc 11 72 1 view .LVU128
+ 565 0008 10B5     		push	{r4, lr}
+ 566              		.cfi_def_cfa_offset 8
+ 567              		.cfi_offset 4, -8
+ 568              		.cfi_offset 14, -4
+ 569              	.LBB202:
+ 570              	.LBB200:
+ 571              	.LBB199:
+ 572              	.LBB198:
+ 573              	.LBB185:
+ 574              	.LBB184:
+ 575              	.LBB183:
+ 576              		.loc 12 166 34 view .LVU129
+ 577 000a 0360     		str	r3, [r0]
+ 578              	.LVL31:
+ 579              		.loc 12 166 34 view .LVU130
+ 580              	.LBE183:
+ 581              	.LBE184:
+ 582              	.LBE185:
+ 583              	.LBB186:
+ 584              	.LBI186:
   95:../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 683              		.loc 5 95 5 is_stmt 1 view .LVU156
- 684              	.LBB242:
- 685              	.LBB243:
-  95:../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 686              		.loc 5 95 35 is_stmt 0 view .LVU157
- 687 000c 4361     		str	r3, [r0, #20]
- 688              	.LVL40:
-  95:../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
- 689              		.loc 5 95 35 view .LVU158
- 690              	.LBE243:
- 691              	.LBE242:
- 692              	.LBE241:
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 58
+ 585              		.loc 5 95 5 is_stmt 1 view .LVU131
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 53
 
 
- 693              	.LBB244:
- 694              	.LBI244:
+ 586              	.LBB187:
+ 587              	.LBB188:
+  95:../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
+ 588              		.loc 5 95 35 is_stmt 0 view .LVU132
+ 589 000c 4361     		str	r3, [r0, #20]
+ 590              	.LVL32:
+  95:../libDaisy//src/hid/audio.h ****     ~AudioHandle() {}
+ 591              		.loc 5 95 35 view .LVU133
+ 592              	.LBE188:
+ 593              	.LBE187:
+ 594              	.LBE186:
+ 595              	.LBB189:
+ 596              	.LBI189:
  109:../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
- 695              		.loc 4 109 5 is_stmt 1 view .LVU159
+ 597              		.loc 4 109 5 is_stmt 1 view .LVU134
  109:../libDaisy//src/per/adc.h ****     ~AdcHandle() {}
- 696              		.loc 4 109 5 is_stmt 0 view .LVU160
- 697              	.LBE244:
- 698              	.LBB245:
- 699              	.LBI245:
- 700              		.file 16 "../libDaisy//src/per/dac.h"
+ 598              		.loc 4 109 5 is_stmt 0 view .LVU135
+ 599              	.LBE189:
+ 600              	.LBB190:
+ 601              	.LBI190:
+ 602              		.file 13 "../libDaisy//src/per/dac.h"
    1:../libDaisy//src/per/dac.h **** #pragma once
    2:../libDaisy//src/per/dac.h **** #ifndef DSY_DAC_H
    3:../libDaisy//src/per/dac.h **** #define DSY_DAC_H
@@ -3467,6 +3178,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   34:../libDaisy//src/per/dac.h ****         ONE,
   35:../libDaisy//src/per/dac.h ****         TWO,
   36:../libDaisy//src/per/dac.h ****         BOTH,
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 54
+
+
   37:../libDaisy//src/per/dac.h ****     };
   38:../libDaisy//src/per/dac.h **** 
   39:../libDaisy//src/per/dac.h ****     /** Sets the Mode for the DAC channels.
@@ -3478,9 +3192,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   45:../libDaisy//src/per/dac.h ****      ***/
   46:../libDaisy//src/per/dac.h ****     enum class Mode
   47:../libDaisy//src/per/dac.h ****     {
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 59
-
-
   48:../libDaisy//src/per/dac.h ****         POLLING,
   49:../libDaisy//src/per/dac.h ****         DMA,
   50:../libDaisy//src/per/dac.h ****     };
@@ -3518,36 +3229,36 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   82:../libDaisy//src/per/dac.h ****     };
   83:../libDaisy//src/per/dac.h **** 
   84:../libDaisy//src/per/dac.h ****     DacHandle() : pimpl_(nullptr) {}
- 701              		.loc 16 84 5 is_stmt 1 view .LVU161
- 702              	.LBB246:
- 703              	.LBB247:
- 704              		.loc 16 84 33 is_stmt 0 view .LVU162
- 705 000e 0362     		str	r3, [r0, #32]
- 706              	.LVL41:
- 707              		.loc 16 84 33 view .LVU163
- 708              	.LBE247:
- 709              	.LBE246:
- 710              	.LBE245:
- 711              	.LBB248:
- 712              	.LBI248:
-  40:../libDaisy//src/hid/usb.h **** 
- 713              		.loc 3 40 5 is_stmt 1 view .LVU164
-  40:../libDaisy//src/hid/usb.h **** 
- 714              		.loc 3 40 5 is_stmt 0 view .LVU165
- 715              	.LBE248:
- 716              	.LBB249:
- 717              	.LBI249:
-  96:../libDaisy//src/sys/system.h ****     ~System() {}
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 60
+ 603              		.loc 13 84 5 is_stmt 1 view .LVU136
+ 604              	.LBB191:
+ 605              	.LBB192:
+ 606              		.loc 13 84 33 is_stmt 0 view .LVU137
+ 607 000e 0362     		str	r3, [r0, #32]
+ 608              	.LVL33:
+ 609              		.loc 13 84 33 view .LVU138
+ 610              	.LBE192:
+ 611              	.LBE191:
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 55
 
 
- 718              		.loc 2 96 5 is_stmt 1 view .LVU166
+ 612              	.LBE190:
+ 613              	.LBB193:
+ 614              	.LBI193:
+  40:../libDaisy//src/hid/usb.h **** 
+ 615              		.loc 3 40 5 is_stmt 1 view .LVU139
+  40:../libDaisy//src/hid/usb.h **** 
+ 616              		.loc 3 40 5 is_stmt 0 view .LVU140
+ 617              	.LBE193:
+ 618              	.LBB194:
+ 619              	.LBI194:
   96:../libDaisy//src/sys/system.h ****     ~System() {}
- 719              		.loc 2 96 5 is_stmt 0 view .LVU167
- 720              	.LBE249:
- 721              	.LBB250:
- 722              	.LBI250:
- 723              		.file 17 "../libDaisy//src/per/sai.h"
+ 620              		.loc 2 96 5 is_stmt 1 view .LVU141
+  96:../libDaisy//src/sys/system.h ****     ~System() {}
+ 621              		.loc 2 96 5 is_stmt 0 view .LVU142
+ 622              	.LBE194:
+ 623              	.LBB195:
+ 624              	.LBI195:
+ 625              		.file 14 "../libDaisy//src/per/sai.h"
    1:../libDaisy//src/per/sai.h **** #pragma once
    2:../libDaisy//src/per/sai.h **** #ifndef DSY_SAI_H
    3:../libDaisy//src/per/sai.h **** #define DSY_SAI_H
@@ -3587,6 +3298,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   37:../libDaisy//src/per/sai.h ****  *  SaiHandle sai;
   38:../libDaisy//src/per/sai.h ****  *  sai.Init(sai_config);
   39:../libDaisy//src/per/sai.h ****  *  // Now you can use it:
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 56
+
+
   40:../libDaisy//src/per/sai.h ****  *  sai.StartDma(. . .);
   41:../libDaisy//src/per/sai.h ****  */
   42:../libDaisy//src/per/sai.h **** class SaiHandle
@@ -3598,9 +3312,6 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   48:../libDaisy//src/per/sai.h ****         /** Specifies the internal peripheral to use (mapped to different hardware pins) */
   49:../libDaisy//src/per/sai.h ****         enum class Peripheral
   50:../libDaisy//src/per/sai.h ****         {
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 61
-
-
   51:../libDaisy//src/per/sai.h ****             SAI_1,
   52:../libDaisy//src/per/sai.h ****             SAI_2,
   53:../libDaisy//src/per/sai.h ****         };
@@ -3647,6 +3358,9 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
   94:../libDaisy//src/per/sai.h ****         } pin_config;
   95:../libDaisy//src/per/sai.h ****         SampleRate sr;
   96:../libDaisy//src/per/sai.h ****         BitDepth   bit_depth;
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 57
+
+
   97:../libDaisy//src/per/sai.h ****         Sync       a_sync, b_sync;
   98:../libDaisy//src/per/sai.h ****         Direction  a_dir, b_dir;
   99:../libDaisy//src/per/sai.h ****     };
@@ -3658,294 +3372,207 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 1
  105:../libDaisy//src/per/sai.h ****         ERR,
  106:../libDaisy//src/per/sai.h ****     };
  107:../libDaisy//src/per/sai.h **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 62
-
-
  108:../libDaisy//src/per/sai.h ****     SaiHandle() : pimpl_(nullptr) {}
- 724              		.loc 17 108 5 is_stmt 1 view .LVU168
- 725              	.LBB251:
- 726              	.LBB252:
- 727              		.loc 17 108 33 is_stmt 0 view .LVU169
- 728 0010 C363     		str	r3, [r0, #60]
- 729              	.LVL42:
- 730              		.loc 17 108 33 view .LVU170
- 731              	.LBE252:
- 732              	.LBE251:
- 733              	.LBE250:
- 734              	.LBE253:
- 735              	.LBE254:
-  18:testproj.cpp  **** Chorus chorus;
- 736              		.loc 14 18 11 view .LVU171
- 737 0012 FFF7FEFF 		bl	__aeabi_atexit
- 738              	.LVL43:
- 739              	.LBB255:
- 740              	.LBI255:
-  96:../DaisySP//Source/Effects/chorus.h ****     ~Chorus() {}
- 741              		.loc 6 96 5 is_stmt 1 view .LVU172
- 742              	.LBE255:
- 743              	.LBE259:
- 744              	.LBE262:
-  96:../DaisySP//Source/Effects/chorus.h ****     ~Chorus() {}
- 745              		.loc 6 96 14 view .LVU173
- 746              	.LBB263:
- 747              	.LBB260:
+ 626              		.loc 14 108 5 is_stmt 1 view .LVU143
+ 627              	.LBB196:
+ 628              	.LBB197:
+ 629              		.loc 14 108 33 is_stmt 0 view .LVU144
+ 630 0010 C363     		str	r3, [r0, #60]
+ 631              	.LVL34:
+ 632              		.loc 14 108 33 view .LVU145
+ 633              	.LBE197:
+ 634              	.LBE196:
+ 635              	.LBE195:
+ 636              	.LBE198:
+ 637              	.LBE199:
+  20:testproj.cpp  **** Delay delay(48000.0f, 24000.0f, 0.5f, sampleRate);
+ 638              		.loc 11 20 11 view .LVU146
+ 639 0012 FFF7FEFF 		bl	__aeabi_atexit
+ 640              	.LVL35:
   21:testproj.cpp  **** float x;
- 748              		.loc 14 21 30 is_stmt 0 view .LVU174
- 749 0016 104C     		ldr	r4, .L36+12
-  19:testproj.cpp  **** Tremolo tremolo;
- 750              		.loc 14 19 8 view .LVU175
- 751 0018 0D4A     		ldr	r2, .L36+4
- 752 001a 1049     		ldr	r1, .L36+16
- 753 001c 1048     		ldr	r0, .L36+20
- 754 001e FFF7FEFF 		bl	__aeabi_atexit
- 755              	.LVL44:
- 756              	.LBB256:
- 757              	.LBI256:
-  32:../DaisySP//Source/Effects/tremolo.h ****     ~Tremolo() {}
- 758              		.loc 7 32 5 is_stmt 1 view .LVU176
- 759              	.LBB257:
- 760              	.LBB258:
- 761              	.LBI258:
-  23:../DaisySP//Source/Synthesis/oscillator.h ****     ~Oscillator() {}
- 762              		.loc 8 23 5 view .LVU177
-  23:../DaisySP//Source/Synthesis/oscillator.h ****     ~Oscillator() {}
- 763              		.loc 8 23 5 is_stmt 0 view .LVU178
- 764              	.LBE258:
- 765              	.LBE257:
- 766              	.LBE256:
-  20:testproj.cpp  **** Delay delay(22050, 0.5, 44100);
- 767              		.loc 14 20 9 view .LVU179
- 768 0022 0B4A     		ldr	r2, .L36+4
- 769 0024 0F49     		ldr	r1, .L36+24
- 770 0026 1048     		ldr	r0, .L36+28
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 63
-
-
- 771 0028 FFF7FEFF 		bl	__aeabi_atexit
- 772              	.LVL45:
+ 641              		.loc 11 21 49 view .LVU147
+ 642 0016 0C4C     		ldr	r4, .L34+12
+ 643 0018 DFED0C1A 		vldr.32	s3, .L34+16
+ 644 001c B6EE001A 		vmov.f32	s2, #5.0e-1
+ 645 0020 2046     		mov	r0, r4
+ 646 0022 DFED0B0A 		vldr.32	s1, .L34+20
+ 647 0026 B0EE610A 		vmov.f32	s0, s3
+ 648 002a FFF7FEFF 		bl	_ZN5DelayC1Effff
+ 649              	.LVL36:
   21:testproj.cpp  **** float x;
- 773              		.loc 14 21 30 view .LVU180
- 774 002c 2046     		mov	r0, r4
- 775 002e F6EE000A 		vmov.f32	s1, #5.0e-1
- 776 0032 9FED0E1A 		vldr.32	s2, .L36+32
- 777 0036 9FED0E0A 		vldr.32	s0, .L36+36
- 778 003a FFF7FEFF 		bl	_ZN5DelayC1Efff
- 779              	.LVL46:
+ 650              		.loc 11 21 7 view .LVU148
+ 651 002e 2046     		mov	r0, r4
+ 652 0030 034A     		ldr	r2, .L34+4
+ 653 0032 0849     		ldr	r1, .L34+24
+ 654              	.LBE200:
+ 655              	.LBE202:
+ 656              		.loc 11 72 1 view .LVU149
+ 657 0034 BDE81040 		pop	{r4, lr}
+ 658              		.cfi_restore 14
+ 659              		.cfi_restore 4
+ 660              		.cfi_def_cfa_offset 0
+ 661              	.LBB203:
+ 662              	.LBB201:
   21:testproj.cpp  **** float x;
- 780              		.loc 14 21 7 view .LVU181
- 781 003e 2046     		mov	r0, r4
- 782 0040 034A     		ldr	r2, .L36+4
- 783 0042 0C49     		ldr	r1, .L36+40
- 784              	.LBE260:
- 785              	.LBE263:
- 786              		.loc 14 80 1 view .LVU182
- 787 0044 BDE81040 		pop	{r4, lr}
- 788              		.cfi_restore 14
- 789              		.cfi_restore 4
- 790              		.cfi_def_cfa_offset 0
- 791              	.LBB264:
- 792              	.LBB261:
-  21:testproj.cpp  **** float x;
- 793              		.loc 14 21 7 view .LVU183
- 794 0048 FFF7FEBF 		b	__aeabi_atexit
- 795              	.LVL47:
- 796              	.L37:
- 797              		.align	2
- 798              	.L36:
- 799 004c 00000000 		.word	.LANCHOR0
- 800 0050 00000000 		.word	__dso_handle
- 801 0054 00000000 		.word	_ZN5daisy9DaisySeedD1Ev
- 802 0058 00000000 		.word	.LANCHOR3
- 803 005c 00000000 		.word	_ZN7daisysp6ChorusD1Ev
- 804 0060 00000000 		.word	chorus
- 805 0064 00000000 		.word	_ZN7daisysp7TremoloD1Ev
- 806 0068 00000000 		.word	.LANCHOR4
- 807 006c 00442C47 		.word	1194083328
- 808 0070 0044AC46 		.word	1185694720
- 809 0074 00000000 		.word	_ZN5DelayD1Ev
- 810              	.LBE261:
- 811              	.LBE264:
- 812              		.cfi_endproc
- 813              	.LFE5276:
- 815              		.section	.init_array,"aw",%init_array
- 816              		.align	2
- 817 0000 00000000 		.word	_GLOBAL__sub_I_hw(target1)
- 818              		.global	y
- 819              		.global	x
- 820              		.global	delay
- 821              		.global	tremolo
- 822              		.global	chorus
- 823              		.global	hw
- 824              		.section	.bss.chorus,"aw",%nobits
- 825              		.align	2
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 64
+ 663              		.loc 11 21 7 view .LVU150
+ 664 0038 FFF7FEBF 		b	__aeabi_atexit
+ 665              	.LVL37:
+ 666              	.L35:
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 58
 
 
- 828              	chorus:
- 829 0000 00000000 		.space	19292
- 829      00000000 
- 829      00000000 
- 829      00000000 
- 829      00000000 
- 830              		.section	.bss.delay,"aw",%nobits
- 831              		.align	2
- 832              		.set	.LANCHOR3,. + 0
- 835              	delay:
- 836 0000 00000000 		.space	28
- 836      00000000 
- 836      00000000 
- 836      00000000 
- 836      00000000 
- 837              		.section	.bss.hw,"aw",%nobits
- 838              		.align	2
- 839              		.set	.LANCHOR0,. + 0
- 842              	hw:
- 843 0000 00000000 		.space	64
- 843      00000000 
- 843      00000000 
- 843      00000000 
- 843      00000000 
- 844              		.section	.bss.tremolo,"aw",%nobits
- 845              		.align	2
- 846              		.set	.LANCHOR4,. + 0
- 849              	tremolo:
- 850 0000 00000000 		.space	52
- 850      00000000 
- 850      00000000 
- 850      00000000 
- 850      00000000 
- 851              		.section	.bss.x,"aw",%nobits
- 852              		.align	2
- 853              		.set	.LANCHOR1,. + 0
- 856              	x:
- 857 0000 00000000 		.space	4
- 858              		.section	.bss.y,"aw",%nobits
- 859              		.align	2
- 860              		.set	.LANCHOR2,. + 0
- 863              	y:
- 864 0000 00000000 		.space	4
- 865              		.text
- 866              	.Letext0:
- 867              		.file 18 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
- 868              		.file 19 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
- 869              		.file 20 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdint.h"
- 870              		.file 21 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stddef.h"
- 871              		.file 22 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cmath"
- 872              		.file 23 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\std_abs.h"
- 873              		.file 24 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdlib"
- 874              		.file 25 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdint"
- 875              		.file 26 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\type_traits"
- 876              		.file 27 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\arm-none-eabi\\t
- 877              		.file 28 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_pair.h
- 878              		.file 29 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\debug\\debug.h"
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 65
+ 667              		.align	2
+ 668              	.L34:
+ 669 003c 00000000 		.word	.LANCHOR0
+ 670 0040 00000000 		.word	__dso_handle
+ 671 0044 00000000 		.word	_ZN5daisy9DaisySeedD1Ev
+ 672 0048 00000000 		.word	.LANCHOR3
+ 673 004c 00803B47 		.word	1195081728
+ 674 0050 0080BB46 		.word	1186693120
+ 675 0054 00000000 		.word	_ZN5DelayD1Ev
+ 676              	.LBE201:
+ 677              	.LBE203:
+ 678              		.cfi_endproc
+ 679              	.LFE5276:
+ 681              		.section	.init_array,"aw",%init_array
+ 682              		.align	2
+ 683 0000 00000000 		.word	_GLOBAL__sub_I_hw(target1)
+ 684              		.global	y
+ 685              		.global	x
+ 686              		.global	delay
+ 687              		.global	hw
+ 688              		.section	.bss.delay,"aw",%nobits
+ 689              		.align	2
+ 690              		.set	.LANCHOR3,. + 0
+ 693              	delay:
+ 694 0000 00000000 		.space	60
+ 694      00000000 
+ 694      00000000 
+ 694      00000000 
+ 694      00000000 
+ 695              		.section	.bss.hw,"aw",%nobits
+ 696              		.align	2
+ 697              		.set	.LANCHOR0,. + 0
+ 700              	hw:
+ 701 0000 00000000 		.space	64
+ 701      00000000 
+ 701      00000000 
+ 701      00000000 
+ 701      00000000 
+ 702              		.section	.bss.x,"aw",%nobits
+ 703              		.align	2
+ 704              		.set	.LANCHOR1,. + 0
+ 707              	x:
+ 708 0000 00000000 		.space	4
+ 709              		.section	.bss.y,"aw",%nobits
+ 710              		.align	2
+ 711              		.set	.LANCHOR2,. + 0
+ 714              	y:
+ 715 0000 00000000 		.space	4
+ 716              		.text
+ 717              	.Letext0:
+ 718              		.file 15 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 719              		.file 16 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 720              		.file 17 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdint.h"
+ 721              		.file 18 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stddef.h"
+ 722              		.file 19 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cmath"
+ 723              		.file 20 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\std_abs.h"
+ 724              		.file 21 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdlib"
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 59
 
 
- 879              		.file 30 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\algorithmf
- 880              		.file 31 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\exception_
- 881              		.file 32 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_constr
- 882              		.file 33 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdarg"
- 883              		.file 34 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdio"
- 884              		.file 35 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstring"
- 885              		.file 36 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cwchar"
- 886              		.file 37 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\clocale"
- 887              		.file 38 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\basic_stri
- 888              		.file 39 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_tempbu
- 889              		.file 40 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\vector.tcc
- 890              		.file 41 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\predefined
- 891              		.file 42 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\ext\\alloc_trait
- 892              		.file 43 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_types.h"
- 893              		.file 44 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\reent.h"
- 894              		.file 45 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\lock.h"
- 895              		.file 46 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\math.h"
- 896              		.file 47 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdlib.h"
- 897              		.file 48 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\math.h"
- 898              		.file 49 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\stdlib.h"
- 899              		.file 50 "../libDaisy//src/daisy_core.h"
- 900              		.file 51 "../libDaisy//src/per/tim.h"
- 901              		.file 52 "../libDaisy//src/util/wav_format.h"
- 902              		.file 53 "../libDaisy//src/dev/max11300.h"
- 903              		.file 54 "../libDaisy//src/per/gpio.h"
- 904              		.file 55 "../libDaisy//src/dev/sdram.h"
- 905              		.file 56 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stdarg.h"
- 906              		.file 57 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdio.h"
- 907              		.file 58 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\string.h"
- 908              		.file 59 "../DaisySP//Source/Control/adenv.h"
- 909              		.file 60 "../DaisySP//Source/Utility/dsp.h"
- 910              		.file 61 "../DaisySP//Source/Utility/delayline.h"
- 911              		.file 62 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\wchar.h"
- 912              		.file 63 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\locale.h"
- 913              		.file 64 "../libDaisy//src/dev/sr_595.h"
- 914              		.file 65 "<built-in>"
- 915              		.file 66 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\new"
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 66
+ 725              		.file 22 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdint"
+ 726              		.file 23 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\type_traits"
+ 727              		.file 24 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\arm-none-eabi\\t
+ 728              		.file 25 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_pair.h
+ 729              		.file 26 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\debug\\debug.h"
+ 730              		.file 27 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\algorithmf
+ 731              		.file 28 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\exception_
+ 732              		.file 29 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_constr
+ 733              		.file 30 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdarg"
+ 734              		.file 31 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdio"
+ 735              		.file 32 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstring"
+ 736              		.file 33 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cwchar"
+ 737              		.file 34 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\clocale"
+ 738              		.file 35 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\basic_stri
+ 739              		.file 36 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_tempbu
+ 740              		.file 37 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\vector.tcc
+ 741              		.file 38 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\predefined
+ 742              		.file 39 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\ext\\alloc_trait
+ 743              		.file 40 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_types.h"
+ 744              		.file 41 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\reent.h"
+ 745              		.file 42 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\lock.h"
+ 746              		.file 43 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\math.h"
+ 747              		.file 44 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdlib.h"
+ 748              		.file 45 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\math.h"
+ 749              		.file 46 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\stdlib.h"
+ 750              		.file 47 "../libDaisy//src/daisy_core.h"
+ 751              		.file 48 "../libDaisy//src/per/tim.h"
+ 752              		.file 49 "../libDaisy//src/util/wav_format.h"
+ 753              		.file 50 "../libDaisy//src/dev/max11300.h"
+ 754              		.file 51 "../libDaisy//src/per/gpio.h"
+ 755              		.file 52 "../libDaisy//src/dev/sdram.h"
+ 756              		.file 53 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stdarg.h"
+ 757              		.file 54 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdio.h"
+ 758              		.file 55 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\string.h"
+ 759              		.file 56 "../DaisySP//Source/Control/adenv.h"
+ 760              		.file 57 "../DaisySP//Source/Utility/dsp.h"
+ 761              		.file 58 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\wchar.h"
+ 762              		.file 59 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\locale.h"
+ 763              		.file 60 "../libDaisy//src/dev/sr_595.h"
+ 764              		.file 61 "<built-in>"
+ 765              		.file 62 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\new"
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s 			page 60
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 testproj.cpp
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:17     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:67     .text._ZN7daisysp6ChorusD2Ev:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:75     .text._ZN7daisysp6ChorusD2Ev:00000000 _ZN7daisysp6ChorusD2Ev
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:75     .text._ZN7daisysp6ChorusD2Ev:00000000 _ZN7daisysp6ChorusD1Ev
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:92     .text._ZN7daisysp7TremoloD2Ev:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:100    .text._ZN7daisysp7TremoloD2Ev:00000000 _ZN7daisysp7TremoloD2Ev
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:100    .text._ZN7daisysp7TremoloD2Ev:00000000 _ZN7daisysp7TremoloD1Ev
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:123    .text._ZN5DelayD2Ev:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:131    .text._ZN5DelayD2Ev:00000000 _ZN5DelayD2Ev
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:131    .text._ZN5DelayD2Ev:00000000 _ZN5DelayD1Ev
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:236    .text._Z13AudioCallbackPKPKfPPfj:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:244    .text._Z13AudioCallbackPKPKfPPfj:00000000 _Z13AudioCallbackPKPKfPPfj
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:378    .text._Z13AudioCallbackPKPKfPPfj:00000078 $d
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:388    .text._Z13InitializeADCv:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:396    .text._Z13InitializeADCv:00000000 _Z13InitializeADCv
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:458    .text._Z13InitializeADCv:00000048 $d
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:463    .text.startup.main:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:471    .text.startup.main:00000000 main
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:549    .text.startup.main:00000050 $d
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:828    .bss.chorus:00000000 chorus
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:557    .text._Z10ProcessADCv:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:565    .text._Z10ProcessADCv:00000000 _Z10ProcessADCv
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:612    .text._Z10ProcessADCv:00000034 $d
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:621    .text.startup._GLOBAL__sub_I_hw:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:628    .text.startup._GLOBAL__sub_I_hw:00000000 _GLOBAL__sub_I_hw
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:799    .text.startup._GLOBAL__sub_I_hw:0000004c $d
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:816    .init_array:00000000 $d
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:863    .bss.y:00000000 y
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:856    .bss.x:00000000 x
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:835    .bss.delay:00000000 delay
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:849    .bss.tremolo:00000000 tremolo
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:842    .bss.hw:00000000 hw
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:825    .bss.chorus:00000000 $d
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:831    .bss.delay:00000000 $d
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:838    .bss.hw:00000000 $d
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:845    .bss.tremolo:00000000 $d
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:852    .bss.x:00000000 $d
-C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s:859    .bss.y:00000000 $d
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:17     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:67     .text._ZN5DelayD2Ev:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:75     .text._ZN5DelayD2Ev:00000000 _ZN5DelayD2Ev
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:75     .text._ZN5DelayD2Ev:00000000 _ZN5DelayD1Ev
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:180    .text._Z13InitializeADCv:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:188    .text._Z13InitializeADCv:00000000 _Z13InitializeADCv
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:251    .text._Z13InitializeADCv:00000048 $d
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:256    .text.startup.main:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:264    .text.startup.main:00000000 main
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:313    .text.startup.main:00000028 $d
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:419    .text._Z13AudioCallbackPKPKfPPfj:00000000 _Z13AudioCallbackPKPKfPPfj
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:319    .text._Z10ProcessADCv:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:327    .text._Z10ProcessADCv:00000000 _Z10ProcessADCv
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:400    .text._Z10ProcessADCv:00000058 $d
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:411    .text._Z13AudioCallbackPKPKfPPfj:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:516    .text._Z13AudioCallbackPKPKfPPfj:00000058 $d
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:523    .text.startup._GLOBAL__sub_I_hw:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:530    .text.startup._GLOBAL__sub_I_hw:00000000 _GLOBAL__sub_I_hw
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:669    .text.startup._GLOBAL__sub_I_hw:0000003c $d
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:682    .init_array:00000000 $d
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:714    .bss.y:00000000 y
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:707    .bss.x:00000000 x
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:693    .bss.delay:00000000 delay
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:700    .bss.hw:00000000 hw
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:689    .bss.delay:00000000 $d
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:696    .bss.hw:00000000 $d
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:703    .bss.x:00000000 $d
+C:\Users\jemcc\AppData\Local\Temp\cc6g7jc1.s:710    .bss.y:00000000 $d
                            .group:00000000 _ZN5daisy9DaisySeedD5Ev
-                           .group:00000000 _ZN7daisysp6ChorusD5Ev
-                           .group:00000000 _ZN7daisysp7TremoloD5Ev
                            .group:00000000 _ZN5DelayD5Ev
 
 UNDEFINED SYMBOLS
 _ZdlPvj
-_ZNK5daisy9AdcHandle8GetFloatEh
-_ZN5Delay13ProcessSampleEf
 _ZN5daisy16AdcChannelConfig10InitSingleE12dsy_gpio_pinNS0_15ConversionSpeedE
 _ZN5daisy9AdcHandle4InitEPNS_16AdcChannelConfigEjNS0_12OverSamplingE
 _ZN5daisy9AdcHandle5StartEv
 _ZN5daisy9DaisySeed4InitEb
 _ZN5daisy9DaisySeed17SetAudioBlockSizeEj
 _ZN5daisy9DaisySeed18SetAudioSampleRateENS_9SaiHandle6Config10SampleRateE
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccGA0wRT.s 			page 67
-
-
 _ZN5daisy9DaisySeed10StartAudioEPFvPKPKfPPfjE
-_ZN5daisy9DaisySeed15AudioSampleRateEv
-_ZN7daisysp6Chorus4InitEf
-_ZN7daisysp7Tremolo4InitEf
-_ZN7daisysp7Tremolo7SetFreqEf
+_ZNK5daisy9AdcHandle8GetFloatEh
+_ZN5Delay12setDelaySizeEf
+_ZN5Delay11setFeedbackEf
+_ZN5Delay13ProcessSampleEf
 __aeabi_atexit
-_ZN5DelayC1Efff
+_ZN5DelayC1Effff
 __dso_handle
