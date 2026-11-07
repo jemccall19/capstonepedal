@@ -1,5 +1,6 @@
 #pragma once
 #include  <vector>
+#include "OnePoleLP.h"
 
 class Delay 
 {
@@ -18,6 +19,7 @@ class Delay
         void setDelaySize(float newDelaySize);
         void setWetMix(float newWetMix);
         void setFeedback(float newFeedback);
+        void setLP(float cutoffHz);
 
     private:
 
@@ -31,7 +33,6 @@ class Delay
         float currentFB, targetFB;
         float smooth;
 
-        float lpState;
-        float lpCoeff;
+        OnePoleLP feedbackLP;
 
 };
