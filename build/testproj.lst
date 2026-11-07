@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   34              		@ link register save eliminated.
   35              	.LBB111:
   36              	.LBI111:
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 2
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 2
 
 
   37              		.file 2 "../libDaisy//src/sys/system.h"
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   54:../libDaisy//src/sys/system.h **** 
   55:../libDaisy//src/sys/system.h ****         SysClkFreq cpu_freq;
   56:../libDaisy//src/sys/system.h ****         bool       use_dcache;
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 3
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 3
 
 
   57:../libDaisy//src/sys/system.h ****         bool       use_icache;
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
    8:../libDaisy//src/hid/usb.h **** /** @addtogroup human_interface
    9:../libDaisy//src/hid/usb.h ****     @{
   10:../libDaisy//src/hid/usb.h **** */
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 4
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 4
 
 
   11:../libDaisy//src/hid/usb.h **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   17:../libDaisy//src/per/adc.h **** /* While there may not be many configuration options here,
   18:../libDaisy//src/per/adc.h **** using a struct like this allows us to add more configuration
   19:../libDaisy//src/per/adc.h **** later without breaking existing functionality.
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 5
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 5
 
 
   20:../libDaisy//src/per/adc.h **** */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   74:../libDaisy//src/per/adc.h ****     void InitMux(dsy_gpio_pin    adc_pin,
   75:../libDaisy//src/per/adc.h ****                  size_t          mux_channels,
   76:../libDaisy//src/per/adc.h ****                  dsy_gpio_pin    mux_0,
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 6
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 6
 
 
   77:../libDaisy//src/per/adc.h ****                  dsy_gpio_pin    mux_1 = {DSY_GPIOX, 0},
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   15:../libDaisy//src/hid/audio.h ****  *           you will have to take the following steps:
   16:../libDaisy//src/hid/audio.h ****  *             1. Create and Initialize an SaiHandle or two depending on your requirements
   17:../libDaisy//src/hid/audio.h ****  *             2. Initialize the Audio Handle with the desired settings and the Initialized SaiHand
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 7
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 7
 
 
   18:../libDaisy//src/hid/audio.h ****  *             3. If the connected codec requires special configuration or initialization, do so
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   72:../libDaisy//src/hid/audio.h ****      */
   73:../libDaisy//src/hid/audio.h ****     typedef void (*AudioCallback)(InputBuffer  in,
   74:../libDaisy//src/hid/audio.h ****                                   OutputBuffer out,
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 8
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 8
 
 
   75:../libDaisy//src/hid/audio.h ****                                   size_t       size);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   85              		.cfi_def_cfa_offset 8
   86              		.cfi_offset 4, -8
   87              		.cfi_offset 14, -4
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 9
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 9
 
 
   88              		.loc 6 5 7 view .LVU12
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   49:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****  */
   50:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
   51:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** /** @file bits/stl_vector.h
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 10
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 10
 
 
   52:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****  *  This is an internal header file, included by other library headers.
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  106:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** #endif
  107:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  108:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	void
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 11
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 11
 
 
  109:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	_M_copy_data(_Vector_impl_data const& __x) _GLIBCXX_NOEXCEPT
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  163:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    static void _S_shrink(_Vector_impl&, size_type) { }
  164:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    static void _S_on_dealloc(_Vector_impl&) { }
  165:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 12
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 12
 
 
  166:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	    typedef _Vector_impl& _Reinit;
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  220:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 			    _M_impl._M_finish);
  221:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	      }
  222:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 13
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 13
 
 
  223:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	      _Vector_impl& _M_impl;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  277:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       { return this->_M_impl; }
  278:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  279:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       const _Tp_alloc_type&
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 14
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 14
 
 
  280:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       _M_get_Tp_allocator() const _GLIBCXX_NOEXCEPT
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  334:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       {
  335:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	_M_deallocate(_M_impl._M_start,
  336:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 		      _M_impl._M_end_of_storage - _M_impl._M_start);
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 15
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 15
 
 
  337:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       }
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  391:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** #ifdef _GLIBCXX_CONCEPT_CHECKS
  392:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       // Concept requirements.
  393:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       typedef typename _Alloc::value_type		_Alloc_value_type;
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 16
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 16
 
 
  394:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** # if __cplusplus < 201103L
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  448:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	// so only do it if we know the type can be move-inserted into *this.
  449:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 	return _S_nothrow_relocate(__is_move_insertable<_Tp_alloc_type>{});
  450:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       }
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 17
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 17
 
 
  451:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  505:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *
  506:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  This constructor fills the %vector with @a __n default
  507:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  constructed elements.
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 18
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 18
 
 
  508:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        */
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  562:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** 
  563:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h **** #if __cplusplus >= 201103L
  564:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       /**
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 19
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 19
 
 
  565:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  @brief  %Vector move constructor.
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  619:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  Create a %vector consisting of copies of the elements in the
  620:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  initializer_list @a __l.
  621:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 20
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 20
 
 
  622:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  This will call the element type's copy constructor N times
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  676:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        *  responsibility.
  677:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****        */
  678:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\stl_vector.h ****       ~vector() _GLIBCXX_NOEXCEPT
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 21
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 21
 
 
   94              		.loc 7 678 7 is_stmt 1 view .LVU13
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   44:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
   45:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #if __cplusplus >= 201103L
   46:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #define __cpp_lib_allocator_traits_is_always_equal 201411
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 22
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 22
 
 
   47:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  101:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       // Select _Func<_Alloc> or pointer_traits<pointer>::rebind<_Tp>
  102:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<template<typename> class _Func, typename _Tp, typename = void>
  103:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	struct _Ptr
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 23
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 23
 
 
  104:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	{
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  158:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *
  159:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        * @c Alloc::difference_type if that type exists, otherwise
  160:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        * <tt> pointer_traits<pointer>::difference_type </tt>
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 24
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 24
 
 
  161:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       */
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  215:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	static constexpr auto
  216:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	_S_allocate(_Alloc2& __a, size_type __n, const_void_pointer __hint, int)
  217:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	-> decltype(__a.allocate(__n, __hint))
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 25
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 25
 
 
  218:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	{ return __a.allocate(__n, __hint); }
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  272:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	_S_destroy(_Alloc2&, _Tp* __p, ...)
  273:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	noexcept(std::is_nothrow_destructible<_Tp>::value)
  274:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	{ std::_Destroy(__p); }
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 26
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 26
 
 
  275:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  329:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       { return _S_allocate(__a, __n, __hint, 0); }
  330:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  331:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       /**
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 27
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 27
 
 
  332:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  @brief  Deallocate memory.
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  386:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       { return _S_max_size(__a, 0); }
  387:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  388:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       /**
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 28
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 28
 
 
  389:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  @brief  Obtain an allocator to use when copying a container.
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  443:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       using is_always_equal = true_type;
  444:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
  445:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       template<typename _Up>
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 29
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 29
 
 
  446:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	using rebind_alloc = allocator<_Up>;
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  500:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *
  501:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  Calls `__a.construct(__p, std::forward<_Args>(__args)...)`
  502:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  in C++11, C++14 and C++17. Changed in C++20 to call
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 30
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 30
 
 
  503:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****        *  `std::construct_at(__p, std::forward<_Args>(__args)...)` instead.
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  557:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       static _GLIBCXX20_CONSTEXPR allocator_type
  558:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       select_on_container_copy_construction(const allocator_type& __rhs)
  559:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       { return __rhs; }
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 31
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 31
 
 
  560:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     };
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  614:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	__one = std::move(__two);
  615:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #else
  616:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****       __do_alloc_on_move(__one, __two, __pocma());
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 32
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 32
 
 
  617:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #endif
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  671:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 				 typename _Alloc::value_type const&>::type
  672:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     { };
  673:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 33
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 33
 
 
  674:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****   // std::allocator<_Tp> just requires CopyConstructible
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  728:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 	allocator_traits<_Allocator>::destroy(__alloc,
  729:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** 					      std::__addressof(*__first));
  730:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h **** #endif
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 34
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 34
 
 
  731:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\alloc_traits.h ****     }
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   21:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** // a copy of the GCC Runtime Library Exception along with this program;
   22:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** // see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
   23:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** // <http://www.gnu.org/licenses/>.
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 35
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 35
 
 
   24:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   78:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       _GLIBCXX20_CONSTEXPR
   79:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       new_allocator() _GLIBCXX_USE_NOEXCEPT { }
   80:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 36
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 36
 
 
   81:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       _GLIBCXX20_CONSTEXPR
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  140              	.LBB142:
  121:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h ****       {
  122:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** #if __cpp_aligned_new
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 37
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 37
 
 
  123:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\ext\new_allocator.h **** 	if (alignof(_Tp) > __STDCPP_DEFAULT_NEW_ALIGNMENT__)
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   25:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** /*
   26:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****  * Copyright (c) 1996-1997
   27:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****  * Silicon Graphics Computer Systems, Inc.
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 38
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 38
 
 
   28:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****  *
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   82:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 	constexpr
   83:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 	allocator(const allocator<_Up>&) { }
   84:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** #endif // ! C++20
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 39
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 39
 
 
   85:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  139:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** #endif
  140:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h **** 
  141:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****       // _GLIBCXX_RESOLVE_LIB_DEFECTS
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 40
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 40
 
 
  142:c:\program files\daisytoolchain\arm-none-eabi\include\c++\10.2.1\bits\allocator.h ****       // 3035. std::allocator's constructors should be constexpr
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
    2:testproj.cpp  **** #include "daisysp.h"
    3:testproj.cpp  **** #include "Delay.h"
    4:testproj.cpp  **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 41
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 41
 
 
    5:testproj.cpp  **** using namespace daisy;
@@ -2424,8 +2424,8 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   25:testproj.cpp  **** Delay delay(48000.0f, 24000.0f, 0.5f, sampleRate);
   26:testproj.cpp  **** 
   27:testproj.cpp  **** //pot variables
-  28:testproj.cpp  **** float x;
-  29:testproj.cpp  **** float y;
+  28:testproj.cpp  **** float p1;
+  29:testproj.cpp  **** float p2;
   30:testproj.cpp  **** 
   31:testproj.cpp  **** void InitializeADC();
   32:testproj.cpp  **** void ProcessADC();
@@ -2434,8 +2434,8 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   35:testproj.cpp  **** {
   36:testproj.cpp  **** 	//calculate & update pot/param values
   37:testproj.cpp  **** 	ProcessADC();
-  38:testproj.cpp  **** 	delay.setDelaySize(x);
-  39:testproj.cpp  **** 	delay.setFeedback(y);
+  38:testproj.cpp  **** 	delay.setDelaySize(p1);
+  39:testproj.cpp  **** 	delay.setFeedback(p2);
   40:testproj.cpp  **** 
   41:testproj.cpp  **** 	for (size_t i = 0; i < size; i++)
   42:testproj.cpp  **** 	{
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   59:testproj.cpp  **** 
   60:testproj.cpp  **** 	hw.StartAudio(AudioCallback);
   61:testproj.cpp  **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 42
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 42
 
 
   62:testproj.cpp  **** 	while(1) {}
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  233 0034 2246     		mov	r2, r4
  234 0036 03A9     		add	r1, sp, #12
  235 0038 2846     		mov	r0, r5
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 43
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 43
 
 
  236 003a FFF7FEFF 		bl	_ZN5daisy9AdcHandle4InitEPNS_16AdcChannelConfigEjNS0_12OverSamplingE
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  284 000a 0421     		movs	r1, #4
  285 000c 0648     		ldr	r0, .L16
  286 000e FFF7FEFF 		bl	_ZN5daisy9DaisySeed17SetAudioBlockSizeEj
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 44
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 44
 
 
  287              	.LVL11:
@@ -2638,11 +2638,11 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  331              		@ args = 0, pretend = 0, frame = 0
  332              		@ frame_needed = 0, uses_anonymous_args = 0
   75:testproj.cpp  **** 	
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 45
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 45
 
 
   76:testproj.cpp  **** 	//pot values SMOOTHED
-  77:testproj.cpp  **** 	float targetX = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
+  77:testproj.cpp  **** 	float targetp1 = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
  333              		.loc 11 77 2 view .LVU66
   74:testproj.cpp  **** 	
  334              		.loc 11 74 19 is_stmt 0 view .LVU67
@@ -2650,7 +2650,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  336              		.cfi_def_cfa_offset 8
  337              		.cfi_offset 3, -8
  338              		.cfi_offset 14, -4
- 339              		.loc 11 77 33 view .LVU68
+ 339              		.loc 11 77 34 view .LVU68
  340 0002 1548     		ldr	r0, .L20
  341 0004 0021     		movs	r1, #0
   74:testproj.cpp  **** 	
@@ -2659,56 +2659,56 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  344              		.cfi_def_cfa_offset 16
  345              		.cfi_offset 80, -16
  346              		.cfi_offset 81, -12
- 347              		.loc 11 77 33 view .LVU70
+ 347              		.loc 11 77 34 view .LVU70
  348 000a FFF7FEFF 		bl	_ZNK5daisy9AdcHandle8GetFloatEh
  349              	.LVL15:
- 350              		.loc 11 77 56 view .LVU71
+ 350              		.loc 11 77 57 view .LVU71
  351 000e 9FED138A 		vldr.32	s16, .L20+4
  352 0012 DFED137A 		vldr.32	s15, .L20+8
-  78:testproj.cpp  **** 	float targetY = hw.adc.GetFloat(KnobTwo) * 0.95f; 
- 353              		.loc 11 78 33 view .LVU72
+  78:testproj.cpp  **** 	float targetp2 = hw.adc.GetFloat(KnobTwo) * 0.95f; 
+ 353              		.loc 11 78 34 view .LVU72
  354 0016 0121     		movs	r1, #1
  355 0018 0F48     		ldr	r0, .L20
-  77:testproj.cpp  **** 	float targetY = hw.adc.GetFloat(KnobTwo) * 0.95f; 
- 356              		.loc 11 77 56 view .LVU73
+  77:testproj.cpp  **** 	float targetp2 = hw.adc.GetFloat(KnobTwo) * 0.95f; 
+ 356              		.loc 11 77 57 view .LVU73
  357 001a A0EE278A 		vfma.f32	s16, s0, s15
  358              	.LVL16:
  359              		.loc 11 78 2 is_stmt 1 view .LVU74
- 360              		.loc 11 78 33 is_stmt 0 view .LVU75
+ 360              		.loc 11 78 34 is_stmt 0 view .LVU75
  361 001e FFF7FEFF 		bl	_ZNK5daisy9AdcHandle8GetFloatEh
  362              	.LVL17:
   79:testproj.cpp  **** 
-  80:testproj.cpp  **** 	x += 0.002f * (targetX - x);
+  80:testproj.cpp  **** 	p1 += 0.002f * (targetp1 - p1);
  363              		.loc 11 80 2 is_stmt 1 view .LVU76
-  81:testproj.cpp  **** 	y += 0.002f * (targetY - y);
- 364              		.loc 11 81 25 is_stmt 0 view .LVU77
+  81:testproj.cpp  **** 	p2 += 0.002f * (targetp2 - p2);
+ 364              		.loc 11 81 27 is_stmt 0 view .LVU77
  365 0022 104B     		ldr	r3, .L20+12
  366 0024 DFED105A 		vldr.32	s11, .L20+16
  367 0028 D3ED007A 		vldr.32	s15, [r3]
-  80:testproj.cpp  **** 	y += 0.002f * (targetY - y);
- 368              		.loc 11 80 25 view .LVU78
+  80:testproj.cpp  **** 	p2 += 0.002f * (targetp2 - p2);
+ 368              		.loc 11 80 27 view .LVU78
  369 002c 0F4A     		ldr	r2, .L20+20
- 370              		.loc 11 81 25 view .LVU79
+ 370              		.loc 11 81 27 view .LVU79
  371 002e B0EE676A 		vmov.f32	s12, s15
-  80:testproj.cpp  **** 	y += 0.002f * (targetY - y);
- 372              		.loc 11 80 4 view .LVU80
+  80:testproj.cpp  **** 	p2 += 0.002f * (targetp2 - p2);
+ 372              		.loc 11 80 5 view .LVU80
  373 0032 DFED0F6A 		vldr.32	s13, .L20+24
-  80:testproj.cpp  **** 	y += 0.002f * (targetY - y);
- 374              		.loc 11 80 25 view .LVU81
+  80:testproj.cpp  **** 	p2 += 0.002f * (targetp2 - p2);
+ 374              		.loc 11 80 27 view .LVU81
  375 0036 92ED007A 		vldr.32	s14, [r2]
- 376              		.loc 11 81 25 view .LVU82
+ 376              		.loc 11 81 27 view .LVU82
  377 003a 90EE256A 		vfnms.f32	s12, s0, s11
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 46
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 46
 
 
-  80:testproj.cpp  **** 	y += 0.002f * (targetY - y);
- 378              		.loc 11 80 25 view .LVU83
+  80:testproj.cpp  **** 	p2 += 0.002f * (targetp2 - p2);
+ 378              		.loc 11 80 27 view .LVU83
  379 003e 38EE478A 		vsub.f32	s16, s16, s14
  380              	.LVL18:
-  80:testproj.cpp  **** 	y += 0.002f * (targetY - y);
- 381              		.loc 11 80 4 view .LVU84
+  80:testproj.cpp  **** 	p2 += 0.002f * (targetp2 - p2);
+ 381              		.loc 11 80 5 view .LVU84
  382 0042 A8EE267A 		vfma.f32	s14, s16, s13
- 383              		.loc 11 81 4 view .LVU85
+ 383              		.loc 11 81 5 view .LVU85
  384 0046 E6EE267A 		vfma.f32	s15, s12, s13
   82:testproj.cpp  **** }
  385              		.loc 11 82 1 view .LVU86
@@ -2716,13 +2716,13 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  387              		.cfi_restore 80
  388              		.cfi_restore 81
  389              		.cfi_def_cfa_offset 8
-  80:testproj.cpp  **** 	y += 0.002f * (targetY - y);
- 390              		.loc 11 80 4 view .LVU87
+  80:testproj.cpp  **** 	p2 += 0.002f * (targetp2 - p2);
+ 390              		.loc 11 80 5 view .LVU87
  391 004e 82ED007A 		vstr.32	s14, [r2]
-  81:testproj.cpp  **** 	y += 0.002f * (targetY - y);
+  81:testproj.cpp  **** 	p2 += 0.002f * (targetp2 - p2);
  392              		.loc 11 81 2 is_stmt 1 view .LVU88
-  81:testproj.cpp  **** 	y += 0.002f * (targetY - y);
- 393              		.loc 11 81 4 is_stmt 0 view .LVU89
+  81:testproj.cpp  **** 	p2 += 0.002f * (targetp2 - p2);
+ 393              		.loc 11 81 5 is_stmt 0 view .LVU89
  394 0052 C3ED007A 		vstr.32	s15, [r3]
  395              		.loc 11 82 1 view .LVU90
  396 0056 08BD     		pop	{r3, pc}
@@ -2754,11 +2754,11 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  423              		.cfi_startproc
  424              		@ args = 0, pretend = 0, frame = 0
  425              		@ frame_needed = 0, uses_anonymous_args = 0
-  37:testproj.cpp  **** 	delay.setDelaySize(x);
+  37:testproj.cpp  **** 	delay.setDelaySize(p1);
  426              		.loc 11 37 2 view .LVU92
   35:testproj.cpp  **** 	//calculate & update pot/param values
  427              		.loc 11 35 1 is_stmt 0 view .LVU93
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 47
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 47
 
 
  428 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
@@ -2774,13 +2774,13 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  437 0004 1546     		mov	r5, r2
  438 0006 0646     		mov	r6, r0
  439 0008 8846     		mov	r8, r1
-  37:testproj.cpp  **** 	delay.setDelaySize(x);
+  37:testproj.cpp  **** 	delay.setDelaySize(p1);
  440              		.loc 11 37 12 view .LVU95
  441 000a FFF7FEFF 		bl	_Z10ProcessADCv
  442              	.LVL20:
-  38:testproj.cpp  **** 	delay.setFeedback(y);
+  38:testproj.cpp  **** 	delay.setFeedback(p2);
  443              		.loc 11 38 2 is_stmt 1 view .LVU96
-  38:testproj.cpp  **** 	delay.setFeedback(y);
+  38:testproj.cpp  **** 	delay.setFeedback(p2);
  444              		.loc 11 38 20 is_stmt 0 view .LVU97
  445 000e 124B     		ldr	r3, .L30
  446 0010 1248     		ldr	r0, .L30+4
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  470              		.loc 11 45 28 discriminator 2 view .LVU105
  471 002e 0B48     		ldr	r0, .L30+4
   44:testproj.cpp  **** 		sig = delay.ProcessSample(sig);
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 48
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 48
 
 
  472              		.loc 11 44 9 discriminator 2 view .LVU106
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  512              	.L31:
   50:testproj.cpp  **** 
  513              		.loc 11 50 1 view .LVU121
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 49
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 49
 
 
  514              		.align	2
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   22:../libDaisy//src/per/qspi.h **** @{
   23:../libDaisy//src/per/qspi.h **** */
   24:../libDaisy//src/per/qspi.h **** 
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 50
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 50
 
 
   25:../libDaisy//src/per/qspi.h **** /** 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   79:../libDaisy//src/per/qspi.h ****         };
   80:../libDaisy//src/per/qspi.h **** 
   81:../libDaisy//src/per/qspi.h ****         //SCK,  CE# (active low)
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 51
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 51
 
 
   82:../libDaisy//src/per/qspi.h ****         struct
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  136:../libDaisy//src/per/qspi.h ****         Erasures will happen by 4K, 32K or 64K increments.
  137:../libDaisy//src/per/qspi.h ****         Smallest erase possible is 4kB at a time. (on IS25LP*)
  138:../libDaisy//src/per/qspi.h ****         \param start_addr Address to begin erasing from
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 52
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 52
 
 
  139:../libDaisy//src/per/qspi.h ****         \param end_addr  Address to stop erasing at
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  573              	.LBB185:
  574              	.LBB184:
  575              	.LBB183:
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 53
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 53
 
 
  576              		.loc 12 166 34 view .LVU129
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   23:../libDaisy//src/per/dac.h ****   public:
   24:../libDaisy//src/per/dac.h ****     /** Return Values for the DacHandle class */
   25:../libDaisy//src/per/dac.h ****     enum class Result
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 54
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 54
 
 
   26:../libDaisy//src/per/dac.h ****     {
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   80:../libDaisy//src/per/dac.h ****         BitDepth    bitdepth;
   81:../libDaisy//src/per/dac.h ****         BufferState buff_state;
   82:../libDaisy//src/per/dac.h ****     };
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 55
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 55
 
 
   83:../libDaisy//src/per/dac.h **** 
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   26:../libDaisy//src/per/sai.h ****  *  sai_config.bit_depth       = SaiHandle::Config::BitDepth::SAI_24BIT;
   27:../libDaisy//src/per/sai.h ****  *  sai_config.a_sync          = SaiHandle::Config::Sync::MASTER;
   28:../libDaisy//src/per/sai.h ****  *  sai_config.b_sync          = SaiHandle::Config::Sync::SLAVE;
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 56
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 56
 
 
   29:../libDaisy//src/per/sai.h ****  *  sai_config.a_dir           = SaiHandle::Config::Direction::RECEIVE;
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
   83:../libDaisy//src/per/sai.h ****         /** Specifies the direction for each peripheral block. */
   84:../libDaisy//src/per/sai.h ****         enum class Direction
   85:../libDaisy//src/per/sai.h ****         {
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 57
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 57
 
 
   86:../libDaisy//src/per/sai.h ****             TRANSMIT,
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  654              	.LBE200:
  655              	.LBE202:
  656              		.loc 11 82 1 view .LVU149
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 58
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 58
 
 
  657 0034 BDE81040 		pop	{r4, lr}
@@ -3448,8 +3448,8 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  681              		.section	.init_array,"aw",%init_array
  682              		.align	2
  683 0000 00000000 		.word	_GLOBAL__sub_I_hw(target1)
- 684              		.global	y
- 685              		.global	x
+ 684              		.global	p2
+ 685              		.global	p1
  686              		.global	delay
  687              		.global	hw
  688              		.section	.bss.delay,"aw",%nobits
@@ -3470,18 +3470,18 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  701      00000000 
  701      00000000 
  701      00000000 
- 702              		.section	.bss.x,"aw",%nobits
+ 702              		.section	.bss.p1,"aw",%nobits
  703              		.align	2
  704              		.set	.LANCHOR1,. + 0
- 707              	x:
+ 707              	p1:
  708 0000 00000000 		.space	4
- 709              		.section	.bss.y,"aw",%nobits
+ 709              		.section	.bss.p2,"aw",%nobits
  710              		.align	2
  711              		.set	.LANCHOR2,. + 0
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 59
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 59
 
 
- 714              	y:
+ 714              	p2:
  715 0000 00000000 		.space	4
  716              		.text
  717              	.Letext0:
@@ -3534,41 +3534,41 @@ ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 1
  764              		.file 61 "../libDaisy//src/dev/sr_595.h"
  765              		.file 62 "<built-in>"
  766              		.file 63 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\new"
-ARM GAS  C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s 			page 60
+ARM GAS  C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s 			page 60
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 testproj.cpp
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:17     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:67     .text._ZN5DelayD2Ev:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:75     .text._ZN5DelayD2Ev:00000000 _ZN5DelayD2Ev
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:75     .text._ZN5DelayD2Ev:00000000 _ZN5DelayD1Ev
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:180    .text._Z13InitializeADCv:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:188    .text._Z13InitializeADCv:00000000 _Z13InitializeADCv
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:251    .text._Z13InitializeADCv:00000048 $d
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:256    .text.startup.main:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:264    .text.startup.main:00000000 main
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:313    .text.startup.main:00000028 $d
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:419    .text._Z13AudioCallbackPKPKfPPfj:00000000 _Z13AudioCallbackPKPKfPPfj
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:319    .text._Z10ProcessADCv:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:327    .text._Z10ProcessADCv:00000000 _Z10ProcessADCv
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:400    .text._Z10ProcessADCv:00000058 $d
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:411    .text._Z13AudioCallbackPKPKfPPfj:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:516    .text._Z13AudioCallbackPKPKfPPfj:00000058 $d
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:523    .text.startup._GLOBAL__sub_I_hw:00000000 $t
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:530    .text.startup._GLOBAL__sub_I_hw:00000000 _GLOBAL__sub_I_hw
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:669    .text.startup._GLOBAL__sub_I_hw:0000003c $d
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:682    .init_array:00000000 $d
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:714    .bss.y:00000000 y
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:707    .bss.x:00000000 x
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:693    .bss.delay:00000000 delay
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:700    .bss.hw:00000000 hw
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:689    .bss.delay:00000000 $d
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:696    .bss.hw:00000000 $d
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:703    .bss.x:00000000 $d
-C:\Users\jemcc\AppData\Local\Temp\ccmsqMA2.s:710    .bss.y:00000000 $d
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:17     .text._ZN5daisy9DaisySeedD2Ev:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD2Ev
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:26     .text._ZN5daisy9DaisySeedD2Ev:00000000 _ZN5daisy9DaisySeedD1Ev
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:67     .text._ZN5DelayD2Ev:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:75     .text._ZN5DelayD2Ev:00000000 _ZN5DelayD2Ev
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:75     .text._ZN5DelayD2Ev:00000000 _ZN5DelayD1Ev
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:180    .text._Z13InitializeADCv:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:188    .text._Z13InitializeADCv:00000000 _Z13InitializeADCv
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:251    .text._Z13InitializeADCv:00000048 $d
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:256    .text.startup.main:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:264    .text.startup.main:00000000 main
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:313    .text.startup.main:00000028 $d
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:419    .text._Z13AudioCallbackPKPKfPPfj:00000000 _Z13AudioCallbackPKPKfPPfj
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:319    .text._Z10ProcessADCv:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:327    .text._Z10ProcessADCv:00000000 _Z10ProcessADCv
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:400    .text._Z10ProcessADCv:00000058 $d
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:411    .text._Z13AudioCallbackPKPKfPPfj:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:516    .text._Z13AudioCallbackPKPKfPPfj:00000058 $d
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:523    .text.startup._GLOBAL__sub_I_hw:00000000 $t
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:530    .text.startup._GLOBAL__sub_I_hw:00000000 _GLOBAL__sub_I_hw
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:669    .text.startup._GLOBAL__sub_I_hw:0000003c $d
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:682    .init_array:00000000 $d
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:714    .bss.p2:00000000 p2
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:707    .bss.p1:00000000 p1
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:693    .bss.delay:00000000 delay
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:700    .bss.hw:00000000 hw
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:689    .bss.delay:00000000 $d
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:696    .bss.hw:00000000 $d
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:703    .bss.p1:00000000 $d
+C:\Users\jemcc\AppData\Local\Temp\cc2tvDU4.s:710    .bss.p2:00000000 $d
                            .group:00000000 _ZN5daisy9DaisySeedD5Ev
                            .group:00000000 _ZN5DelayD5Ev
 

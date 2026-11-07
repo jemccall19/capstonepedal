@@ -25,8 +25,8 @@ DaisySeed hw;
 Delay delay(48000.0f, 24000.0f, 0.5f, sampleRate);
 
 //pot variables
-float x;
-float y;
+float p1;
+float p2;
 
 void InitializeADC();
 void ProcessADC();
@@ -35,8 +35,8 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 {
 	//calculate & update pot/param values
 	ProcessADC();
-	delay.setDelaySize(x);
-	delay.setFeedback(y);
+	delay.setDelaySize(p1);
+	delay.setFeedback(p2);
 
 	for (size_t i = 0; i < size; i++)
 	{
@@ -74,9 +74,9 @@ void InitializeADC() {
 void ProcessADC() {
 	
 	//pot values SMOOTHED
-	float targetX = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
-	float targetY = hw.adc.GetFloat(KnobTwo) * 0.95f; 
+	float targetp1 = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
+	float targetp2 = hw.adc.GetFloat(KnobTwo) * 0.95f; 
 
-	x += 0.002f * (targetX - x);
-	y += 0.002f * (targetY - y);
+	p1 += 0.002f * (targetp1 - p1);
+	p2 += 0.002f * (targetp2 - p2);
 }
