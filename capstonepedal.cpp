@@ -74,7 +74,7 @@ void InitializeADC() {
 void ProcessADC() {
 	
 	//pot values SMOOTHED
-	float targetp1 = hw.adc.GetFloat(KnobOne) * 39690.0f + 4410.0f;
+	float targetp1 = hw.adc.GetFloat(KnobOne) * 44000.0f + 4000.0f;
 	float targetp2 = hw.adc.GetFloat(KnobTwo) * 0.95f; 
 
 	p1 += 0.002f * (targetp1 - p1);
