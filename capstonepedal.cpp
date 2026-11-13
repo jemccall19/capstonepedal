@@ -1,7 +1,6 @@
 #include "daisy_seed.h"
 #include "daisysp.h"
 #include "Delay.h"
-#include "MonoReverb.h"
 
 using namespace daisy;
 using namespace daisy::seed;
@@ -23,8 +22,7 @@ static const float sampleRate = 48000.0f;
 
 //init class objects
 DaisySeed hw;
-Delay delay(48000.0f, 24000.0f, 0.5f, sampleRate);
-MonoReverb monoReverb(0.5f, sampleRate);
+Delay delay(48000.0f, 24000.0f, 0.5f, sampleRate); //max delay size 1s, init delay size 0.5s, wet mix 50%
 
 //pot variables
 float p1;
@@ -39,16 +37,12 @@ void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, s
 	ProcessADC();
 	delay.setDelaySize(p1);
 	delay.setFeedback(p2);
-	monoReverb.setDecay(0.5f);
-	monoReverb.setModDepth(3.0f);
-	monoReverb.setLowCut(200.0f);
 
 	for (size_t i = 0; i < size; i++)
 	{
-		//signal path
+		//signal path per sample
 		float sig = in[1][i];
 		sig = delay.ProcessSample(sig);
-		sig = monoReverb.ProcessSample(sig);
 		out[0][i] = sig;
 		out[1][i] = sig;
 		

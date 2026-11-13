@@ -2,7 +2,7 @@
 TARGET = testproj
 
 # Sources
-CPP_SOURCES = capstonepedal.cpp delay.cpp MonoReverb.cpp
+CPP_SOURCES = capstonepedal.cpp delay.cpp
 
 # Library Locations
 LIBDAISY_DIR = ../libDaisy/

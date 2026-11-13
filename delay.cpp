@@ -35,6 +35,12 @@ Delay::Delay(float maxDelaySize, float delaySize, float wetMix, float sampleRate
     feedbackLP.SetCutoff(4000.0f);
 }
 
+void Delay::Process(float* buf, size_t n)
+{
+    for (size_t i = 0; i < n; i++)
+        buf[i] = ProcessSample(buf[i]);
+}
+
 float Delay::ProcessSample(float input)
 {
     
@@ -48,14 +54,14 @@ float Delay::ProcessSample(float input)
     if (readPos < 0.0f)
         readPos += bufferSize;
 
-    //linear interpolation. don't ask me how it works
+    //linear interpolation
     int i0 = static_cast<int>(readPos);
     int i1 = (i0 + 1) % bufferSize;
     float frac = readPos - static_cast<float>(i0);
     float delayedSample = delayBuffer[i0] + frac * (delayBuffer[i1] - delayBuffer[i0]);
 
    
-    //run feedback through LPF. tanh is for limiting (also don't ask me how that works)
+    //run feedback through LPF. tanh is for limiting
     float filtered = feedbackLP.Process(delayedSample);
     float feedbackSample = std::tanh(filtered * currentFB);
 
@@ -67,7 +73,7 @@ float Delay::ProcessSample(float input)
     return (1.0f - currentWet) * input + currentWet * delayedSample;
 }
 
-void Delay::reset()
+void Delay::Reset()
 {
     std::fill(delayBuffer.begin(), delayBuffer.end(), 0.0f);
     writeIndex = 0;
@@ -75,6 +81,16 @@ void Delay::reset()
     currentDelay = targetDelay;
     currentWet = targetWet;
     currentFB = targetFB;
+}
+
+void Delay::SetParam(int index, float v)
+{
+    switch (index)
+    {
+        case 0: setDelaySize(4000.0f + v*44000.0f); break;
+        case 1: setFeedback(v*0.95f);               break;
+        case 2: setWetMix(v);                       break;
+    }
 }
 
 void Delay::setDelaySize(float newDelaySize)
