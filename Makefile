@@ -2,7 +2,7 @@
 TARGET = testproj
 
 # Sources
-CPP_SOURCES = capstonepedal.cpp delay.cpp
+CPP_SOURCES = capstonepedal.cpp delay.cpp reverb1.cpp Sdrampool.cpp
 
 # Library Locations
 LIBDAISY_DIR = ../libDaisy/

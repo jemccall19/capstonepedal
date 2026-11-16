@@ -188,7 +188,8 @@ build/capstonepedal.o: capstonepedal.cpp \
  ../DaisySP//Source/Utility/looper.h ../DaisySP//Source/Utility/maytrig.h \
  ../DaisySP//Source/Utility/metro.h \
  ../DaisySP//Source/Utility/samplehold.h \
- ../DaisySP//Source/Utility/smooth_random.h Delay.h Effect.h OnePoleLP.h
+ ../DaisySP//Source/Utility/smooth_random.h Delay.h Effect.h OnePoleLP.h \
+ bitcrusher.h reverb1.h LFO.h Sdrampool.h
 ../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h:
 ../libDaisy//Drivers/CMSIS/Include/core_cm7.h:
@@ -427,3 +428,7 @@ build/capstonepedal.o: capstonepedal.cpp \
 Delay.h:
 Effect.h:
 OnePoleLP.h:
+bitcrusher.h:
+reverb1.h:
+LFO.h:
+Sdrampool.h:
