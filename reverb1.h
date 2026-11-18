@@ -43,7 +43,7 @@ class Reverb1
         float Read(int p) const
         {
             int i = writeIndex - p; //follow behind write by p samples
-            if (i < 0) i+=size; //wrap backward if needed
+            if (i < 0) i+=size; //wrap around if needed
             return buffer[i];
         }
 
@@ -52,7 +52,7 @@ class Reverb1
             int whole = static_cast<int>(d);
             float frac = d - static_cast<float>(whole);
 
-            //interpolation
+            //interpolate between the two values
             int i0 = writeIndex - whole;
             if (i0 < 0) i0+=size;
             int i1 = i0 - 1;

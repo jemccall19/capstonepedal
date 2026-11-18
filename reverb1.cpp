@@ -53,7 +53,7 @@ namespace
         const float scale = sampleRate/referenceRate;
 
         maxModDepth = modDepth*scale;
-        const int excess = static_cast<int>(std::ceil(maxModDepth))+2;
+        const int excess = static_cast<int>(std::ceil(maxModDepth))+2; 
 
         maxPreDelay = static_cast<int>(0.1f * sampleRate);
         preDelay.Init(maxPreDelay);
@@ -109,7 +109,7 @@ namespace
         initialized = true;
     }
 
-    float Reverb1::Allpass(DelayLine& dL1, int n, float g, float x)
+    float Reverb1::Allpass(DelayLine& dL1, int n, float g, float x) //dL1 is buffer, n is delay length, g is diffusion amt, x is input
     {
         float delayed = dL1.Read(n);
         float v = x - g*delayed;

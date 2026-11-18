@@ -54,7 +54,7 @@ float Delay::ProcessSample(float input)
     if (readPos < 0.0f)
         readPos += bufferSize;
 
-    //linear interpolation
+    //interpolation
     int i0 = static_cast<int>(readPos);
     int i1 = (i0 + 1) % bufferSize;
     float frac = readPos - static_cast<float>(i0);
